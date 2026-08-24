@@ -11,12 +11,42 @@ module.exports = {
     "Placeholder paragraph introducing Academic Challenge: what it is, " +
     "who it's for, and why a student would want to join. Replace with real " +
     "copy.",
+  // Real copy, supplied by the club. Edit in place if it changes.
+  mission: {
+    paragraphs: [
+      "The goal of Mission San Jose Academic Challenge is to increase " +
+        "student interest in various STEM and humanities fields through " +
+        "participation in the various competitions of History Bowl, Ocean " +
+        "Science Bowl, Science Bowl, Science Olympiad, and Quiz Bowl.",
+      "As a primarily student-run organization, MSJ AC also seeks to " +
+        "foster leadership and communication skills in its members.",
+    ],
+  },
   joinCta: {
-    heading: "Placeholder join heading",
+    heading: "Get Involved",
+    bodyParagraphs: [
+      "We welcome high school students of any grade to join one of our " +
+        "competitions. Registration information can be found under each " +
+        "of the individual competition tabs. Not sure of which " +
+        'competition(s) to join? Fill out our "Join" form under the ' +
+        "contact tab to receive information about all of our events.",
+      "We are also always looking for mentors and volunteers " +
+        "(particularly parents)! If interested, please contact us.",
+    ],
+    linkLabel: "Contact Us",
+  },
+  donate: {
+    heading: "Donate",
     body:
-      "Placeholder paragraph on how a student gets involved — where " +
-      "meetings happen, whether tryouts are required, and who to contact.",
-    linkLabel: "See how to join",
+      "Donations of any amount are highly appreciated! The school does " +
+      "not have any funding allocated for our club and we depend " +
+      "largely on student-run fundraisers and donations. All monetary " +
+      "contributions will go towards registration fees, transportation, " +
+      "lodging, studying and building materials, renting out facilities, " +
+      "and stipends for advisors/mentors. These are all necessary fees " +
+      "for our club to function, and they add up very quickly. We also " +
+      "accept non-monetary donations such as equipment or materials.",
+    linkLabel: "Contact Us About Donating",
   },
   about: {
     whatWeDo:
