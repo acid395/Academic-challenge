@@ -29,8 +29,38 @@ files in `dist/`, they get wiped and regenerated on every build.
 | Officers, captains, alumni — names, bios, emails, roles | `data/people.js` |
 | Adding a **new person** | Add one object to the array in `data/people.js` with an `id`, `status` (`"current"`/`"alumni"`), and a `roles` array. Their bio page, roster card, and (if a captain) program-page listing are all generated from this one record — nothing else to edit. |
 | Giving someone a **second role** (e.g. an officer who also captains a program) | Add another entry to that person's `roles` array in `data/people.js` |
+| Instagram posts shown on the home page | `data/instagram.js` — see below |
 
 After editing any file in `data/`, run `node build.js` again.
+
+## Instagram feed
+
+The home page "Follow Us" section has two modes, controlled by `data/instagram.js`:
+
+**Manual list (current default).** `posts` is an array of post permalinks
+(`https://www.instagram.com/p/XXXXXXXXXXX/`). Each renders as a real, live
+Instagram embed (via Instagram's own `embed.js`) in a one-at-a-time
+carousel with prev/next buttons. To update it: add or remove a permalink in
+the `posts` array and run `node build.js`. This does not update itself —
+you (or ask a Claude Code session to) refresh the list when there's a new
+post to add.
+
+**Live widget (auto-updates).** Instagram doesn't offer a public "always
+show my latest post" embed on its own — getting one requires a third-party
+service that polls your account for you. To set it up:
+
+1. Create a free account at [lightwidget.com](https://lightwidget.com) or
+   [snapwidget.com](https://snapwidget.com).
+2. Connect/authorize `@msj_academic_challenge` through their official
+   Instagram login flow (they don't see your password).
+3. Choose a **Carousel** or **Slideshow** layout to match the current
+   one-post-at-a-time style.
+4. Copy the embed snippet they give you (usually an `<iframe>` tag).
+5. Paste it as the value of `widgetEmbedHtml` in `data/instagram.js`
+   (replacing `null`), then run `node build.js`.
+
+Once `widgetEmbedHtml` is set, it takes over from the manual `posts` list
+automatically and the feed stays current with no further edits needed here.
 
 ## Adding a photo
 
@@ -73,6 +103,7 @@ data/            content — the only files you should normally edit
   contact.js     contact page content
   programs.js    the five programs, one object each
   people.js      every officer/captain/alumnus, one object each
+  instagram.js   home page Instagram feed (manual list or live widget)
 
 lib/
   render.js      shared helpers: nav, breadcrumbs, footer sitemap, avatars,
