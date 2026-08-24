@@ -70,21 +70,25 @@
       });
     });
 
-    if ("IntersectionObserver" in window) {
-      var observer = new IntersectionObserver(
-        function (entries) {
-          entries.forEach(function (entry) {
-            var match = sections.find(function (s) { return s.target === entry.target; });
-            if (!match) return;
-            if (entry.isIntersecting) {
-              sections.forEach(function (s) { s.btn.removeAttribute("aria-current"); });
-              match.btn.setAttribute("aria-current", "true");
-            }
-          });
-        },
-        { rootMargin: "-20% 0px -70% 0px", threshold: 0 }
-      );
-      sections.forEach(function (s) { observer.observe(s.target); });
+    var ticking = false;
+    function updateCurrentSection() {
+      ticking = false;
+      var line = (document.querySelector(".site-header") ? document.querySelector(".site-header").offsetHeight : 0) + 24;
+      var current = sections[0];
+      sections.forEach(function (s) {
+        if (s.target.getBoundingClientRect().top - line <= 0) current = s;
+      });
+      sections.forEach(function (s) { s.btn.removeAttribute("aria-current"); });
+      current.btn.setAttribute("aria-current", "true");
     }
+    function onScroll() {
+      if (!ticking) {
+        window.requestAnimationFrame(updateCurrentSection);
+        ticking = true;
+      }
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    updateCurrentSection();
   }
 })();
