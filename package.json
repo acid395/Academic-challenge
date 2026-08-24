@@ -1,0 +1,14 @@
+{
+  "name": "academic-challenge",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static site for the Academic Challenge club.",
+  "scripts": {
+    "build": "node build.js",
+    "preview-build": "node build.js --preview",
+    "serve": "node scripts/serve.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}
