@@ -51,18 +51,12 @@
     <p class="eyebrow">Student-Run Academic Competition Club</p>
     <h1>Academic Challenge</h1>
     <p class="hero-tagline">Placeholder tagline describing the club in one sentence.</p>
-    <!-- EDITABLE: home page intro copy — edit data/site.js (homeIntro) -->
-    <p class="hero-intro">Placeholder paragraph introducing Academic Challenge: what it is, who it&#39;s for, and why a student would want to join. Replace with real copy.</p>
+    <!-- EDITABLE: home page intro copy — edit data/site.js (homeIntroParagraphs) -->
+    <p class="hero-intro">The goal of Mission San Jose Academic Challenge is to increase student interest in various STEM and humanities fields through participation in the various competitions of History Bowl, Ocean Science Bowl, Science Bowl, Science Olympiad, and Quiz Bowl.</p><p class="hero-intro">As a primarily student-run organization, MSJ AC also seeks to foster leadership and communication skills in its members.</p>
     <div class="hero-actions">
       <a class="button button-primary" href="/contact.html">Contact Us</a>
       <a class="button button-secondary" href="/team/index.html">Meet Our Team</a>
     </div>
-  </section>
-
-  <section class="section" aria-labelledby="mission-heading">
-    <h2 id="mission-heading">Our Mission</h2>
-    <!-- EDITABLE: mission statement — edit data/site.js (mission.paragraphs) -->
-    <p>The goal of Mission San Jose Academic Challenge is to increase student interest in various STEM and humanities fields through participation in the various competitions of History Bowl, Ocean Science Bowl, Science Bowl, Science Olympiad, and Quiz Bowl.</p><p>As a primarily student-run organization, MSJ AC also seeks to foster leadership and communication skills in its members.</p>
   </section>
 
   <section class="section" aria-labelledby="programs-heading">
@@ -124,7 +118,8 @@
       <a class="section-heading-link" href="https://www.instagram.com/msj_academic_challenge/" target="_blank" rel="noopener">@msj_academic_challenge on Instagram &rarr;</a>
     </div>
     <!-- EDITABLE: Instagram posts — edit data/instagram.js (posts); add a post permalink, no markup needed -->
-    <ul class="instagram-grid"><li class="instagram-post">
+    <div class="instagram-carousel-wrap">
+        <ul class="instagram-carousel" id="instagram-carousel"><li class="instagram-post">
         <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbFTAfvhryg/" data-instgrm-version="14">
           <a href="https://www.instagram.com/p/DbFTAfvhryg/" target="_blank" rel="noopener">View this post on Instagram</a>
         </blockquote>
@@ -149,6 +144,12 @@
           <a href="https://www.instagram.com/p/DbCtwxWFQgb/" target="_blank" rel="noopener">View this post on Instagram</a>
         </blockquote>
       </li></ul>
+        <div class="carousel-controls">
+          <button type="button" class="carousel-nav" data-dir="-1" aria-label="Previous post">&larr;</button>
+          <p class="carousel-status" aria-live="polite">Post 1 of 6</p>
+          <button type="button" class="carousel-nav" data-dir="1" aria-label="Next post">&rarr;</button>
+        </div>
+       </div>
        <script async src="https://www.instagram.com/embed.js"></script>
   </section>
   </div>

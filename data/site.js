@@ -7,21 +7,16 @@ module.exports = {
   clubName: "Academic Challenge",
   shortName: "Academic Challenge",
   tagline: "Placeholder tagline describing the club in one sentence.",
-  homeIntro:
-    "Placeholder paragraph introducing Academic Challenge: what it is, " +
-    "who it's for, and why a student would want to join. Replace with real " +
-    "copy.",
-  // Real copy, supplied by the club. Edit in place if it changes.
-  mission: {
-    paragraphs: [
-      "The goal of Mission San Jose Academic Challenge is to increase " +
-        "student interest in various STEM and humanities fields through " +
-        "participation in the various competitions of History Bowl, Ocean " +
-        "Science Bowl, Science Bowl, Science Olympiad, and Quiz Bowl.",
-      "As a primarily student-run organization, MSJ AC also seeks to " +
-        "foster leadership and communication skills in its members.",
-    ],
-  },
+  // Real copy, supplied by the club. Shown directly under the h1 on the
+  // home page, above the Contact Us / Meet Our Team buttons.
+  homeIntroParagraphs: [
+    "The goal of Mission San Jose Academic Challenge is to increase " +
+      "student interest in various STEM and humanities fields through " +
+      "participation in the various competitions of History Bowl, Ocean " +
+      "Science Bowl, Science Bowl, Science Olympiad, and Quiz Bowl.",
+    "As a primarily student-run organization, MSJ AC also seeks to " +
+      "foster leadership and communication skills in its members.",
+  ],
   joinCta: {
     heading: "Get Involved",
     bodyParagraphs: [

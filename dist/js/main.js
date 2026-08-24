@@ -91,4 +91,79 @@
     window.addEventListener("resize", onScroll);
     updateCurrentSection();
   }
+
+  // ---- Instagram carousel: prev/next buttons + keyboard + live status ------
+  document.querySelectorAll(".instagram-carousel").forEach(function (carousel) {
+    var wrap = carousel.closest(".instagram-carousel-wrap");
+    if (!wrap) return;
+    var items = Array.prototype.slice.call(carousel.querySelectorAll(".instagram-post"));
+    var status = wrap.querySelector(".carousel-status");
+    var prevBtn = wrap.querySelector('.carousel-nav[data-dir="-1"]');
+    var nextBtn = wrap.querySelector('.carousel-nav[data-dir="1"]');
+    if (!items.length) return;
+
+    function currentIndex() {
+      var scrollLeft = carousel.scrollLeft;
+      var closest = 0;
+      var closestDist = Infinity;
+      items.forEach(function (item, i) {
+        var dist = Math.abs(item.offsetLeft - carousel.offsetLeft - scrollLeft);
+        if (dist < closestDist) {
+          closestDist = dist;
+          closest = i;
+        }
+      });
+      return closest;
+    }
+
+    function updateStatus() {
+      var idx = currentIndex();
+      if (status) status.textContent = "Post " + (idx + 1) + " of " + items.length;
+      if (prevBtn) prevBtn.disabled = idx === 0;
+      if (nextBtn) nextBtn.disabled = idx === items.length - 1;
+    }
+
+    function scrollToIndex(idx) {
+      idx = Math.max(0, Math.min(items.length - 1, idx));
+      var item = items[idx];
+      if (!item) return;
+      carousel.scrollTo({
+        left: item.offsetLeft - carousel.offsetLeft,
+        behavior: reducedMotion ? "auto" : "smooth",
+      });
+    }
+
+    if (prevBtn) prevBtn.addEventListener("click", function () { scrollToIndex(currentIndex() - 1); });
+    if (nextBtn) nextBtn.addEventListener("click", function () { scrollToIndex(currentIndex() + 1); });
+
+    var ticking = false;
+    carousel.addEventListener(
+      "scroll",
+      function () {
+        if (!ticking) {
+          window.requestAnimationFrame(function () {
+            updateStatus();
+            ticking = false;
+          });
+          ticking = true;
+        }
+      },
+      { passive: true }
+    );
+
+    carousel.setAttribute("tabindex", "0");
+    carousel.setAttribute("role", "region");
+    carousel.setAttribute("aria-label", "Instagram posts, scrollable");
+    carousel.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") {
+        e.preventDefault();
+        scrollToIndex(currentIndex() + 1);
+      } else if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        scrollToIndex(currentIndex() - 1);
+      }
+    });
+
+    updateStatus();
+  });
 })();
