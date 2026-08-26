@@ -4,8 +4,7 @@
 // page.
 // ---------------------------------------------------------------------------
 module.exports = {
-  clubName: "Academic Challenge",
-  shortName: "Academic Challenge",
+  clubName: "MSJ Academic Challenge",
   tagline:
     "A student-run club at Mission San Jose High School that competes in " +
     "Science Olympiad, Science Bowl, Quiz Bowl, Ocean Science Bowl, and " +
