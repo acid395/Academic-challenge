@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------------
 // SITE-WIDE SETTINGS. Edit this file to change the club name, tagline, or
-// meeting/advisor info that appears in the header, footer, home page, and
-// about page.
+// meeting info that appears in the header, footer, home page, and about
+// page.
 // ---------------------------------------------------------------------------
 module.exports = {
   clubName: "Academic Challenge",
@@ -76,9 +76,5 @@ module.exports = {
       "practice day/time under \"How to Participate.\" Most practices " +
       "run weekly during that program's season, either at Mission San " +
       "Jose High School or online.",
-  },
-  advisor: {
-    name: "Advisor Name Placeholder",
-    email: "advisor@example.com",
   },
 };

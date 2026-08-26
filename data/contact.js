@@ -1,7 +1,8 @@
 // ---------------------------------------------------------------------------
 // CONTACT PAGE CONTENT. Edit this file to change club-wide emails, socials,
-// and mailing-list info shown on contact.html. Officer-specific contact
-// info lives on each officer's person record in data/people.js.
+// and mailing-list info shown on contact.html. (Individual officer emails,
+// if any, live on that officer's own bio page via data/people.js — this
+// page only shows club-wide contact info.)
 // ---------------------------------------------------------------------------
 module.exports = {
   emails: [

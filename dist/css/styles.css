@@ -4,14 +4,17 @@
 --------------------------------------------------------------------------- */
 
 :root {
+  /* Palette matched to the club logo: charcoal backdrop, book-cover
+     green, trophy gold. */
   --color-bg: #f4f1ea;
   --color-surface: #fbfaf6;
   --color-ink: #14181a;
   --color-ink-soft: #4a5254;
-  --color-green: #0b3b2e;
-  --color-green-soft: #12513f;
+  --color-charcoal: #212227;
+  --color-green: #146b3a;
+  --color-green-soft: #0f5029;
   --color-amber: #f2b705;
-  --color-steel: #35525e;
+  --color-steel: #4b6357;
   --color-red: #b23a2f;
   --color-border: #d8d3c4;
   --color-border-strong: #a8a08a;
@@ -125,7 +128,7 @@ button:focus-visible,
 
 /* ---- Header / nav ----------------------------------------------------- */
 .site-header {
-  background: var(--color-green);
+  background: var(--color-charcoal);
   color: #f4f1ea;
   position: sticky;
   top: 0;
@@ -252,7 +255,7 @@ button:focus-visible,
   .dropdown-menu {
     position: absolute;
     top: 100%; left: 0;
-    background: var(--color-green);
+    background: var(--color-charcoal);
     border: 1px solid rgba(244,241,234,0.15);
     border-top: 3px solid var(--color-amber);
     min-width: 13rem;
@@ -278,7 +281,7 @@ button:focus-visible,
     display: none;
     position: absolute;
     top: 100%; left: 0; right: 0;
-    background: var(--color-green);
+    background: var(--color-charcoal);
     border-bottom: 4px solid var(--color-amber);
     max-height: calc(100vh - var(--header-height));
     overflow-y: auto;
@@ -351,7 +354,7 @@ button:focus-visible,
 code {
   font-family: var(--font-mono);
   font-size: 0.9em;
-  background: rgba(11,59,46,0.08);
+  background: rgba(20,107,58,0.08);
   padding: 0.1em 0.35em;
   border-radius: var(--radius);
 }
@@ -363,7 +366,7 @@ code {
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
 
 .join-section {
-  background: var(--color-green);
+  background: var(--color-charcoal);
   color: #f4f1ea;
   padding: 2.25rem;
   border-radius: var(--radius);
@@ -479,14 +482,14 @@ code {
   padding: 0.65rem 0.75rem;
   border-bottom: 1px solid var(--color-border);
 }
-.data-table tbody tr:hover { background: rgba(11,59,46,0.05); }
+.data-table tbody tr:hover { background: rgba(20,107,58,0.05); }
 .col-year {
   font-family: var(--font-mono);
   font-weight: 600;
   white-space: nowrap;
 }
 .data-table .col-year {
-  background: var(--color-ink);
+  background: var(--color-charcoal);
   color: var(--color-amber);
   display: inline-block;
   padding: 0.15rem 0.5rem;
@@ -649,7 +652,7 @@ code {
   cursor: pointer;
   border-radius: 0 var(--radius) var(--radius) 0;
 }
-.page-index-link:hover { background: rgba(11,59,46,0.06); color: var(--color-ink); }
+.page-index-link:hover { background: rgba(20,107,58,0.06); color: var(--color-ink); }
 .page-index-link[aria-current="true"] {
   border-left-color: var(--color-amber);
   color: var(--color-green);
@@ -668,7 +671,7 @@ code {
 
 /* ---- Footer ------------------------------------------------------------ */
 .site-footer {
-  background: var(--color-green);
+  background: var(--color-charcoal);
   color: #e7e3d8;
   border-top: 4px solid var(--color-amber);
   margin-top: 3rem;
@@ -692,7 +695,7 @@ code {
   gap: 1.5rem;
 }
 @media (min-width: 560px) {
-  .footer-sitemap { grid-template-columns: repeat(4, 1fr); }
+  .footer-sitemap { grid-template-columns: repeat(3, 1fr); }
 }
 .footer-group h2 {
   font-family: var(--font-mono);
