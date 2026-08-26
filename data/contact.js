@@ -4,17 +4,21 @@
 // info lives on each officer's person record in data/people.js.
 // ---------------------------------------------------------------------------
 module.exports = {
-  generalEmail: "info@example.com",
+  emails: [
+    { label: "General", email: "ac.msjhs@gmail.com" },
+    { label: "Science Olympiad", email: "scioly.msjhs@gmail.com" },
+  ],
   mailingList: {
     description:
-      "Placeholder paragraph on how to get on the mailing list — a form " +
-      "link, a sign-up sheet at meetings, etc.",
-    linkLabel: "Join the mailing list",
-    // Placeholder target. Replace with a real sign-up form URL.
-    href: "mailto:info@example.com?subject=Add%20me%20to%20the%20mailing%20list",
+      "Join the MSJ Academic Challenge Discord server and use the " +
+      "#competition-select channel to sign up for events and join the " +
+      "mailing lists for each competition you're interested in.",
+    linkLabel: "Join Our Discord",
+    href: "https://discord.gg/XSwSzKC8wY",
   },
   socials: [
-    { label: "Instagram", href: "https://instagram.com/example" },
-    { label: "Remind", href: "https://remind.com/join/example" },
+    { label: "Facebook", href: "https://www.facebook.com/msjhsac/" },
+    { label: "Instagram", href: "https://www.instagram.com/msj_academic_challenge/" },
+    { label: "Discord", href: "https://discord.gg/XSwSzKC8wY" },
   ],
 };

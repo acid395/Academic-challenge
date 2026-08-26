@@ -513,7 +513,8 @@ code {
 .link-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
 .link-list a { font-weight: 600; }
 
-.contact-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
+.contact-list { list-style: none; margin: 0 0 1.5rem; padding: 0; display: grid; gap: 0.6rem; }
+.contact-list:last-child { margin-bottom: 0; }
 .contact-list li { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: baseline; }
 .contact-name { font-weight: 600; }
 .contact-role { font-family: var(--font-mono); font-size: 0.82rem; color: var(--color-steel); }

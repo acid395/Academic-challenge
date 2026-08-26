@@ -6,7 +6,10 @@
 module.exports = {
   clubName: "Academic Challenge",
   shortName: "Academic Challenge",
-  tagline: "Placeholder tagline describing the club in one sentence.",
+  tagline:
+    "A student-run club at Mission San Jose High School that competes in " +
+    "Science Olympiad, Science Bowl, Quiz Bowl, Ocean Science Bowl, and " +
+    "History Bowl at the regional, state, and national levels.",
   // Real copy, supplied by the club. Shown directly under the h1 on the
   // home page, above the Contact Us / Meet Our Team buttons.
   homeIntroParagraphs: [
@@ -21,41 +24,58 @@ module.exports = {
     heading: "Get Involved",
     bodyParagraphs: [
       "We welcome high school students of any grade to join one of our " +
-        "competitions. Registration information can be found under each " +
-        "of the individual competition tabs. Not sure of which " +
-        'competition(s) to join? Fill out our "Join" form under the ' +
-        "contact tab to receive information about all of our events.",
+        "competitions. Join our Discord server and use the " +
+        "#competition-select channel to sign up for events and mailing " +
+        "lists — each program also has its own sign-up form, linked on " +
+        "that program's page.",
       "We are also always looking for mentors and volunteers " +
-        "(particularly parents)! If interested, please contact us.",
+        "(particularly parents)! If interested, email us at " +
+        "ac.msjhs@gmail.com.",
     ],
-    linkLabel: "Contact Us",
+    ctaLabel: "Join Our Discord",
+    ctaHref: "https://discord.gg/XSwSzKC8wY",
   },
   donate: {
     heading: "Donate",
     body:
       "Donations of any amount are highly appreciated! The school does " +
-      "not have any funding allocated for our club and we depend " +
-      "largely on student-run fundraisers and donations. All monetary " +
-      "contributions will go towards registration fees, transportation, " +
-      "lodging, studying and building materials, renting out facilities, " +
-      "and stipends for advisors/mentors. These are all necessary fees " +
-      "for our club to function, and they add up very quickly. We also " +
-      "accept non-monetary donations such as equipment or materials.",
+      "not have any funding allocated for our club, so we depend " +
+      "largely on student-run fundraisers and donations. Contributions " +
+      "go toward registration fees, transportation, lodging, study " +
+      "materials, facility rentals, and advisor stipends — costs that " +
+      'add up quickly. To donate, make checks payable to "MSJHS (MSJ ' +
+      'Academic Challenge)" with the purpose noted on the memo line; ' +
+      "receipts are available on request. We also accept non-monetary " +
+      "donations such as equipment or materials, and can discuss company " +
+      "matching, grants, or sponsorships.",
     linkLabel: "Contact Us About Donating",
   },
   about: {
     whatWeDo:
-      "Placeholder paragraph describing what the club does across its " +
-      "five programs and why they run it.",
+      'Affectionately dubbed "Academically Challenged" by its members, ' +
+      "Academic Challenge is a student-run club that competes in Science " +
+      "Olympiad, Science Bowl, Quiz Bowl, Ocean Science Bowl, and History " +
+      "Bowl at the regional, state, and national levels. Our goal is to " +
+      "encourage the study of science, engineering, math, and the " +
+      "humanities, and to create a tightly-knit community of students.",
+    school:
+      "Academic Challenge is based at Mission San Jose High School, a " +
+      "public high school in Fremont, California that serves grades 9–12.",
     organization:
-      "Placeholder paragraph describing how the club is organized: " +
-      "officers, program captains, and general members.",
+      "The club is run entirely by its students. An officer board " +
+      "handles overall operations and logistics, while each competition " +
+      "program is led by student captains who run tryouts, practices, " +
+      "and travel for their event.",
   },
+  // No single club-wide meeting time — each program sets its own tryout
+  // and practice schedule (see each program's "How to Participate").
   meeting: {
-    day: "PLACEHOLDER DAY",
-    time: "PLACEHOLDER TIME",
-    location: "PLACEHOLDER ROOM, PLACEHOLDER HIGH SCHOOL",
-    frequency: "PLACEHOLDER FREQUENCY (e.g. weekly)",
+    summary: "Practice schedules are set per program, not club-wide.",
+    detail:
+      "Each program's page lists its current tryout process and " +
+      "practice day/time under \"How to Participate.\" Most practices " +
+      "run weekly during that program's season, either at Mission San " +
+      "Jose High School or online.",
   },
   advisor: {
     name: "Advisor Name Placeholder",

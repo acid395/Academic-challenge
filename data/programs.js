@@ -6,126 +6,177 @@
 //
 // achievements / upcomingCompetitions are plain data arrays: add or remove
 // a row to change what renders in those sections, no markup involved.
+//
+// Content below is sourced from the club's previous site
+// (msjhsac.wixsite.com/home) as of 2026-08. Sign-up form links were
+// individually verified to resolve to a live Google Form before being
+// added here. Where the source site didn't list something (e.g. exact
+// upcoming competition dates), the field is left empty rather than
+// guessed — fill it in as real dates are set.
 // ---------------------------------------------------------------------------
 module.exports = [
   {
     slug: "science-olympiad",
     name: "Science Olympiad",
-    shortDescription: "Placeholder one-line description of Science Olympiad.",
+    shortDescription:
+      "A tournament-style competition spanning 23 events in science, engineering, and math.",
     overview:
-      "Placeholder paragraph describing what the Science Olympiad " +
-      "competition is and what a season looks like for this program.",
+      'Science Olympiad is often called "the track meet of academia." ' +
+      "Teams of 15 compete across 23 events spanning science, " +
+      "engineering, and mathematics — a mix of written tests, pre-built " +
+      "devices, and on-site labs — over 7 time blocks per tournament. " +
+      "Placements across all events combine into an overall team score, " +
+      "with lower totals ranking higher. MSJ competes through " +
+      "invitationals, Bay Area Regionals, and Northern California State " +
+      "Finals, with most tournaments held on Saturdays.",
     participate: {
-      whoCanJoin: "Placeholder description of who is eligible to join.",
+      whoCanJoin: "Open to any Mission San Jose High School student, grades 9–12.",
       selectionProcess:
-        "Placeholder description of the tryout or selection process.",
-      timeCommitment: "PLACEHOLDER hours per week",
-      practiceSchedule: "PLACEHOLDER practice day/time placeholder",
-      whatToStudy: "Placeholder list of topics or events to study.",
+        "Tryouts are typically held in October: candidates test on up to " +
+        "6 events during lunch in Mr. Melcic's room over about two weeks.",
+      timeCommitment: "Varies by event load — most members compete in up to 6 events per season.",
+      practiceSchedule: "Set after tryouts, once event assignments are finalized.",
+      whatToStudy: "Event-specific study guides, shared in the MSJ AC Discord server once you're signed up.",
+      signupFormUrl: "https://forms.gle/rhS5q9utYKXZ6q7m8",
     },
     achievements: [
-      { year: "20XX", competition: "Competition Name Placeholder", placement: "Placement Placeholder" },
-      { year: "20XX", competition: "Competition Name Placeholder", placement: "Placement Placeholder" },
+      { year: "2023-24", competition: "BARSO (Regionals)", placement: "2nd place" },
+      { year: "2023-24", competition: "Stanford Science Olympiad", placement: "3rd place" },
+      { year: "2023-24", competition: "GullSO", placement: "3rd place" },
+      { year: "2023-24", competition: "Mira Loma Science Olympiad Invitational", placement: "5th place" },
+      { year: "2023-24", competition: "GGSO (Berkeley/Stanford Invitational)", placement: "6th place" },
+      { year: "2023-24", competition: "NorCal State", placement: "6th place" },
     ],
-    upcomingCompetitions: [
-      { date: "20XX-XX-XX", event: "Event Name Placeholder", location: "Location Placeholder" },
-      { date: "20XX-XX-XX", event: "Event Name Placeholder", location: "Location Placeholder" },
-    ],
+    upcomingCompetitions: [],
   },
   {
     slug: "science-bowl",
     name: "Science Bowl",
-    shortDescription: "Placeholder one-line description of Science Bowl.",
+    shortDescription:
+      "A Jeopardy-style buzzer competition covering biology, chemistry, physics, earth & space science, math, and energy.",
     overview:
-      "Placeholder paragraph describing what the Science Bowl " +
-      "competition is and what a season looks like for this program.",
+      "Science Bowl is a Jeopardy-style buzzer competition between two " +
+      "teams of five (four players plus one alternate). Each round " +
+      "covers about 25 question sets across six disciplines — biology, " +
+      "chemistry, physics, earth and space science, math, and energy — " +
+      "with individual toss-ups worth 4 points and team-discussed bonus " +
+      "questions worth 10.",
     participate: {
-      whoCanJoin: "Placeholder description of who is eligible to join.",
+      whoCanJoin: "Open to any Mission San Jose High School student, grades 9–12.",
       selectionProcess:
-        "Placeholder description of the tryout or selection process.",
-      timeCommitment: "PLACEHOLDER hours per week",
-      practiceSchedule: "PLACEHOLDER practice day/time placeholder",
-      whatToStudy: "Placeholder list of topics or events to study.",
+        "Tryouts are one-hour, buzzer-based tests held per subject; each " +
+        "student can try out for two subject sections, plus math " +
+        "optionally. Team selection weighs tryout scores alongside team " +
+        "synergy and behavior.",
+      timeCommitment: "Set after tryouts, once teams are finalized.",
+      practiceSchedule:
+        "Practices use prewritten questions brought by each member, " +
+        "then split into teams to run full competition sets; exact " +
+        "times are set after tryouts and may change.",
+      whatToStudy: "The six Science Bowl subject areas — biology, chemistry, physics, earth & space science, math, and energy.",
+      signupFormUrl: "https://forms.gle/8m7xeSMiswxBnVTZ9",
     },
     achievements: [
-      { year: "20XX", competition: "Competition Name Placeholder", placement: "Placement Placeholder" },
-      { year: "20XX", competition: "Competition Name Placeholder", placement: "Placement Placeholder" },
+      { year: "2024-25", competition: "Regionals", placement: "1st place" },
+      { year: "2024-25", competition: "Nationals", placement: "Top 12" },
+      { year: "2024-25", competition: "Berkeley Science Bowl", placement: "1st place" },
+      { year: "2024-25", competition: "Stanford Science Bowl", placement: "1st place" },
+      { year: "2024-25", competition: "MIT Science Bowl", placement: "2nd place" },
+      { year: "2024-25", competition: "Blair-Amador Invitational", placement: "1st place" },
+      { year: "2024-25", competition: "Texas Invitational", placement: "1st place" },
+      { year: "2024-25", competition: "Iron City Invitational", placement: "1st place" },
     ],
     upcomingCompetitions: [
-      { date: "20XX-XX-XX", event: "Event Name Placeholder", location: "Location Placeholder" },
-      { date: "20XX-XX-XX", event: "Event Name Placeholder", location: "Location Placeholder" },
+      { date: "TBA", event: "ICSBT 2", location: "TBA" },
+      { date: "TBA", event: "Berkeley Science Bowl", location: "TBA" },
+      { date: "TBA", event: "MIT Science Bowl", location: "TBA" },
+      { date: "TBA", event: "AVES 2", location: "TBA" },
+      { date: "TBA", event: "Stanford Science Bowl", location: "TBA" },
+      { date: "TBA", event: "Sandia/LLNL Regionals", location: "TBA" },
     ],
   },
   {
     slug: "quiz-bowl",
     name: "Quiz Bowl",
-    shortDescription: "Placeholder one-line description of Quiz Bowl.",
+    shortDescription:
+      "A fast-paced buzzer competition covering science, history, literature, mythology, fine arts, and more.",
     overview:
-      "Placeholder paragraph describing what the Quiz Bowl " +
-      "competition is and what a season looks like for this program.",
+      "Quiz Bowl is a fast-paced academic buzzer competition where teams " +
+      "of 4–6 answer pyramidal toss-up questions spanning science, " +
+      "history, literature, mythology, fine arts, and more. Clues run " +
+      "from less well-known to more well-known within each question, " +
+      "rewarding both broad knowledge and quick recall.",
     participate: {
-      whoCanJoin: "Placeholder description of who is eligible to join.",
-      selectionProcess:
-        "Placeholder description of the tryout or selection process.",
-      timeCommitment: "PLACEHOLDER hours per week",
-      practiceSchedule: "PLACEHOLDER practice day/time placeholder",
-      whatToStudy: "Placeholder list of topics or events to study.",
+      whoCanJoin: "Open to any Mission San Jose High School student, grades 9–12.",
+      selectionProcess: "Sign up through the Quiz Bowl registration form (linked below) to join.",
+      timeCommitment: "Regular Sunday practices, plus tournament days as they're announced.",
+      practiceSchedule: "In person, Sundays at 4:30 PM.",
+      whatToStudy:
+        "General academic knowledge across science, history, " +
+        "literature, mythology, and fine arts; tournaments are usually " +
+        "announced a couple of weeks in advance on the hsquizbowl forum.",
+      signupFormUrl: "https://forms.gle/wGaoYz1G764Sawj56",
     },
-    achievements: [
-      { year: "20XX", competition: "Competition Name Placeholder", placement: "Placement Placeholder" },
-      { year: "20XX", competition: "Competition Name Placeholder", placement: "Placement Placeholder" },
-    ],
-    upcomingCompetitions: [
-      { date: "20XX-XX-XX", event: "Event Name Placeholder", location: "Location Placeholder" },
-      { date: "20XX-XX-XX", event: "Event Name Placeholder", location: "Location Placeholder" },
-    ],
+    achievements: [],
+    upcomingCompetitions: [],
   },
   {
     slug: "ocean-science-bowl",
     name: "Ocean Science Bowl",
-    shortDescription: "Placeholder one-line description of Ocean Science Bowl.",
+    shortDescription:
+      "A buzzer competition on marine science — biology, chemistry, physical & earth science, and policy.",
     overview:
-      "Placeholder paragraph describing what the Ocean Science Bowl " +
-      "competition is and what a season looks like for this program.",
+      "Ocean Science Bowl (the National Ocean Sciences Bowl's Sea Lion " +
+      "Bowl) is a buzzer competition covering marine biology, " +
+      "chemistry, physical science, geology, geography, history, " +
+      "technology, and policy. Each match pairs two buzzer rounds " +
+      "around a Team Challenge Question (TCQ) worksheet round, where " +
+      "the team works together on written questions; final scores " +
+      "combine TCQ and buzzer performance. Teams field four players " +
+      "plus one optional alternate. Regionals run in early February, " +
+      "with the top team advancing to Nationals in April–May; " +
+      "scrimmages run the month before Regionals.",
     participate: {
-      whoCanJoin: "Placeholder description of who is eligible to join.",
-      selectionProcess:
-        "Placeholder description of the tryout or selection process.",
-      timeCommitment: "PLACEHOLDER hours per week",
-      practiceSchedule: "PLACEHOLDER practice day/time placeholder",
-      whatToStudy: "Placeholder list of topics or events to study.",
+      whoCanJoin: "Open to any Mission San Jose High School student, grades 9–12.",
+      selectionProcess: "General practices begin over the summer and continue until tryouts (date set each year).",
+      timeCommitment: "Weekly practices through the season, plus scrimmages and the Regional/National tournaments.",
+      practiceSchedule: "Currently online, Sundays 7–8 PM, with a planned move to in-person practices.",
+      whatToStudy:
+        "Buzzer training, scrimmages, and content review across marine " +
+        "biology, chemistry, physical/earth science, geography, " +
+        "history, technology, and policy — materials provided by " +
+        "Academic Challenge.",
+      signupFormUrl: "https://forms.gle/HFnyNvWLmf1wSKwY6",
     },
     achievements: [
-      { year: "20XX", competition: "Competition Name Placeholder", placement: "Placement Placeholder" },
-      { year: "20XX", competition: "Competition Name Placeholder", placement: "Placement Placeholder" },
+      { year: "2023-24", competition: "Northern California Sea Lion Bowl Championship", placement: "3rd place" },
+      { year: "2022-23", competition: "LOBSTr", placement: "1st place" },
+      { year: "2022-23", competition: "Lynbrook Invitational (Varsity)", placement: "1st place" },
+      { year: "2022-23", competition: "Lynbrook Invitational (JV)", placement: "3rd place" },
     ],
-    upcomingCompetitions: [
-      { date: "20XX-XX-XX", event: "Event Name Placeholder", location: "Location Placeholder" },
-      { date: "20XX-XX-XX", event: "Event Name Placeholder", location: "Location Placeholder" },
-    ],
+    upcomingCompetitions: [],
   },
   {
     slug: "history-bowl",
     name: "History Bowl",
-    shortDescription: "Placeholder one-line description of History Bowl.",
+    shortDescription: "A fast-paced buzzer competition testing knowledge across all of history.",
     overview:
-      "Placeholder paragraph describing what the History Bowl " +
-      "competition is and what a season looks like for this program.",
+      "History Bowl is a fast-paced academic buzzer competition " +
+      "covering all facets of history, from ancient civilizations to " +
+      "contemporary events. Matches run four rounds: two toss-up " +
+      "rounds of decreasing difficulty (the second with 10-point bonus " +
+      'questions), a rapid-fire "lightning round" against the clock, ' +
+      "and a final toss-up round with bonus points for earlier correct " +
+      "answers. Teams field 3–6 players.",
     participate: {
-      whoCanJoin: "Placeholder description of who is eligible to join.",
-      selectionProcess:
-        "Placeholder description of the tryout or selection process.",
-      timeCommitment: "PLACEHOLDER hours per week",
-      practiceSchedule: "PLACEHOLDER practice day/time placeholder",
-      whatToStudy: "Placeholder list of topics or events to study.",
+      whoCanJoin: "Open to any Mission San Jose High School student, grades 9–12.",
+      selectionProcess: "Sign up through the History Bowl registration form (linked below) to join.",
+      timeCommitment: "Not specified — check the sign-up form or the club Discord for current details.",
+      practiceSchedule: "Not specified — check the sign-up form or the club Discord for current details.",
+      whatToStudy: "General history knowledge spanning ancient civilizations through contemporary events.",
+      signupFormUrl: "https://tinyurl.com/MSJHistBowl2022",
     },
-    achievements: [
-      { year: "20XX", competition: "Competition Name Placeholder", placement: "Placement Placeholder" },
-      { year: "20XX", competition: "Competition Name Placeholder", placement: "Placement Placeholder" },
-    ],
-    upcomingCompetitions: [
-      { date: "20XX-XX-XX", event: "Event Name Placeholder", location: "Location Placeholder" },
-      { date: "20XX-XX-XX", event: "Event Name Placeholder", location: "Location Placeholder" },
-    ],
+    achievements: [],
+    upcomingCompetitions: [],
   },
 ];
