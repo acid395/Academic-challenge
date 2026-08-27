@@ -78,13 +78,29 @@ module.exports = {
   },
   // Shown in the footer's fine print on every page.
   footerNote: "MSJ Academic Challenge is a student club affiliated with Mission San Jose High School.",
-  // EDITABLE: the home page's "Recent Highlight" photo. Set programSlug to
-  // whichever program page it should link to; photo/alt/caption same shape
-  // as an entry in that program's data/programs.js `photos` array.
-  homeHighlight: {
-    programSlug: "science-bowl",
-    photo: "assets/programs/science-bowl/champions-2026.jpg",
-    alt: "Five Science Bowl students and their coach holding a green banner reading National Science Bowl, 2026 National Champion",
-    caption: "Our Science Bowl team won the 2026 National Science Bowl — the club's biggest result yet.",
-  },
+  // EDITABLE: the home page's "Recent Highlights" photos, biggest/most
+  // recent first. Each entry's programSlug is which program page it links
+  // to; photo/alt/caption are the same shape as an entry in that program's
+  // data/programs.js `photos` array. Add or remove an entry to change what
+  // shows, no markup needed.
+  homeHighlights: [
+    {
+      programSlug: "science-bowl",
+      photo: "assets/programs/science-bowl/champions-2026.jpg",
+      alt: "Five Science Bowl students and their coach holding a green banner reading National Science Bowl, 2026 National Champion",
+      caption: "Our Science Bowl team won the 2026 National Science Bowl — the club's biggest result yet.",
+    },
+    {
+      programSlug: "science-olympiad",
+      photo: "assets/programs/science-olympiad/norcal-state.jpg",
+      alt: "The Science Olympiad team and their coach holding a 5th place trophy and plaque in front of a Science Olympiad banner",
+      caption: "Science Olympiad placed 5th at NorCal State (2025), plus four 1st-place event finishes in 2026.",
+    },
+    {
+      programSlug: "ocean-science-bowl",
+      photo: "assets/programs/ocean-science-bowl/sea-lion-bowl.jpg",
+      alt: "The Ocean Science Bowl team posing with trophies and stuffed-animal prizes after the Sea Lion Bowl",
+      caption: "Ocean Science Bowl won the 2026 Sea Lion Bowl (NorCal).",
+    },
+  ],
 };
