@@ -8,11 +8,11 @@
 // a row to change what renders in those sections, no markup involved.
 //
 // Content below is sourced from the club's previous site
-// (msjhsac.wixsite.com/home) as of 2026-08. Sign-up form links were
-// individually verified to resolve to a live Google Form before being
-// added here. Where the source site didn't list something (e.g. exact
-// upcoming competition dates), the field is left empty rather than
-// guessed — fill it in as real dates are set.
+// (msjhsac.wixsite.com/home) as of 2026-08, plus later corrections from
+// the club. Per-program sign-up form links were removed (2026-08) once
+// they went stale — participate.selectionProcess now points people to
+// Discord/Contact instead. Where a field isn't known (e.g. exact
+// upcoming competition dates), it's left empty rather than guessed.
 // ---------------------------------------------------------------------------
 module.exports = [
   {
@@ -37,7 +37,6 @@ module.exports = [
       timeCommitment: "Varies by event load — most members compete in up to 6 events per season.",
       practiceSchedule: "Set after tryouts, once event assignments are finalized.",
       whatToStudy: "Event-specific study guides, shared in the MSJ AC Discord server once you're signed up.",
-      signupFormUrl: "https://forms.gle/rhS5q9utYKXZ6q7m8",
     },
     achievements: [
       { year: "2026", competition: "NorCal State Science Olympiad", placement: "5th place" },
@@ -84,7 +83,6 @@ module.exports = [
         "then split into teams to run full competition sets; exact " +
         "times are set after tryouts and may change.",
       whatToStudy: "The six Science Bowl subject areas — biology, chemistry, physics, earth & space science, math, and energy.",
-      signupFormUrl: "https://forms.gle/8m7xeSMiswxBnVTZ9",
     },
     achievements: [
       { year: "2026", competition: "National Science Bowl", placement: "Champions" },
@@ -121,14 +119,13 @@ module.exports = [
       "rewarding both broad knowledge and quick recall.",
     participate: {
       whoCanJoin: "Open to any Mission San Jose High School student, grades 9–12.",
-      selectionProcess: "Sign up through the Quiz Bowl registration form (linked below) to join.",
+      selectionProcess: "Sign up via the club Discord or contact us — see the Get Involved section on the home page.",
       timeCommitment: "Regular Sunday practices, plus tournament days as they're announced.",
       practiceSchedule: "In person, Sundays at 4:30 PM.",
       whatToStudy:
         "General academic knowledge across science, history, " +
         "literature, mythology, and fine arts; tournaments are usually " +
         "announced a couple of weeks in advance on the hsquizbowl forum.",
-      signupFormUrl: "https://forms.gle/wGaoYz1G764Sawj56",
     },
     achievements: [
       { year: "2026", competition: "High School National Championship Tournament", placement: "5th place" },
@@ -161,7 +158,6 @@ module.exports = [
         "biology, chemistry, physical/earth science, geography, " +
         "history, technology, and policy — materials provided by " +
         "Academic Challenge.",
-      signupFormUrl: "https://forms.gle/HFnyNvWLmf1wSKwY6",
     },
     achievements: [
       { year: "2026", competition: "Sea Lion Bowl (NorCal)", placement: "Champions" },
@@ -186,11 +182,10 @@ module.exports = [
       "answers. Teams field 3–6 players.",
     participate: {
       whoCanJoin: "Open to any Mission San Jose High School student, grades 9–12.",
-      selectionProcess: "Sign up through the History Bowl registration form (linked below) to join.",
-      timeCommitment: "Not specified — check the sign-up form or the club Discord for current details.",
-      practiceSchedule: "Not specified — check the sign-up form or the club Discord for current details.",
+      selectionProcess: "Sign up via the club Discord or contact us — see the Get Involved section on the home page.",
+      timeCommitment: "Not specified — check the club Discord for current details.",
+      practiceSchedule: "Not specified — check the club Discord for current details.",
       whatToStudy: "General history knowledge spanning ancient civilizations through contemporary events.",
-      signupFormUrl: "https://tinyurl.com/MSJHistBowl2022",
     },
     achievements: [
       { year: "2026", competition: "National History Bowl (Varsity, ~100 teams)", placement: "35th place" },
