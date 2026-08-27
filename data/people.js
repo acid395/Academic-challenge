@@ -373,11 +373,9 @@ module.exports = [
   // ==========================================================================
   // ALUMNI
   // ==========================================================================
-  // classYear inferred from stated Grade + school year in their bio where a
-  // "Class of" line wasn't explicitly given (Ashwin Vaidyanathan, Ethan Yan,
-  // Jasmine Li, Aravind Muralidharan, Advaith Mopuri, Ben Qu) — cross-checked
-  // against other alumni in the same bio batch who do have an explicit
-  // "Class of" line. Worth a quick confirm if you have the exact years.
+  // classYear for Ashwin Vaidyanathan, Ethan Yan, and Ben Qu was inferred
+  // from stated Grade + school year in their bio (no explicit "Class of"
+  // line was given for them) and confirmed by the club as of 2026-08-26.
   {
     id: "ashwin-vaidyanathan",
     name: "Ashwin Vaidyanathan",
@@ -427,7 +425,7 @@ module.exports = [
     name: "Jasmine Li",
     photo: null,
     status: "alumni",
-    classYear: "2025",
+    classYear: "2026",
     bio:
       "This school year, Senior Jasmine Li has retired their position " +
       "as smiskified Publicity Officer to serve as one of AC's " +
@@ -445,7 +443,7 @@ module.exports = [
     name: "Aravind Muralidharan",
     photo: null,
     status: "alumni",
-    classYear: "2025",
+    classYear: "2026",
     bio:
       "Senior Aravind Muralidharan serves as ocean science bowl captain " +
       "and the treasurer for the AC club this year. He has also tried " +
@@ -465,7 +463,7 @@ module.exports = [
     name: "Advaith Mopuri",
     photo: null,
     status: "alumni",
-    classYear: "2025",
+    classYear: "2026",
     bio:
       "Senior Advaith Mopuri is a co-captain of the science bowl team. " +
       "Advaith specializes in math and physics, and is unusually bad at " +

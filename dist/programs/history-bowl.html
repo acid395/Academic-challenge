@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Flags JS as available so CSS can gate the scroll-reveal effect behind
+     it — content stays fully visible if this never runs (JS disabled/blocked). -->
+<script>document.documentElement.classList.add("js")</script>
 <title>History Bowl · MSJ Academic Challenge</title>
 <meta name="description" content="A student-run club at Mission San Jose High School that competes in Science Olympiad, Science Bowl, Quiz Bowl, Ocean Science Bowl, and History Bowl at the regional, state, and national levels." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -78,7 +81,11 @@
   <section class="section" id="achievements" aria-labelledby="achievements-heading">
     <h2 id="achievements-heading">Notable Achievements</h2>
     <!-- EDITABLE: achievement rows — edit data/programs.js (achievements); add/remove a row, no markup needed -->
-    <p class="empty-note">No achievements listed yet.</p>
+    <div class="data-table-wrap"><table class="data-table achievements-table">
+    <caption class="sr-only">Notable achievements</caption>
+    <thead><tr><th scope="col">Year</th><th scope="col">Competition</th><th scope="col">Placement</th></tr></thead>
+    <tbody><tr><td class="col-year">2026</td><td>National History Bowl (Varsity, ~100 teams)</td><td>35th place</td></tr><tr><td class="col-year">2026</td><td>National History Bowl (JV)</td><td>21st place</td></tr><tr><td class="col-year">2026</td><td>Hopkins History Bowl (~100 teams)</td><td>3rd place</td></tr><tr><td class="col-year">2025</td><td>National History Bowl (Varsity, ~100 teams)</td><td>25th place</td></tr><tr><td class="col-year">2025</td><td>Hopkins History Bowl (~100 teams)</td><td>5th place</td></tr></tbody>
+  </table></div>
   </section>
 
   <section class="section" id="captains" aria-labelledby="captains-heading">

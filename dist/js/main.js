@@ -166,4 +166,28 @@
 
     updateStatus();
   });
+
+  // ---- Scroll-reveal for sections (see the matching CSS for the .js /
+  // reduced-motion gating that keeps this a pure enhancement) -------------
+  if (!reducedMotion) {
+    var revealEls = document.querySelectorAll(".section");
+    if (revealEls.length) {
+      if ("IntersectionObserver" in window) {
+        var revealObserver = new IntersectionObserver(
+          function (entries, obs) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                obs.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.1, rootMargin: "0px 0px -10% 0px" }
+        );
+        revealEls.forEach(function (el) { revealObserver.observe(el); });
+      } else {
+        revealEls.forEach(function (el) { el.classList.add("is-visible"); });
+      }
+    }
+  }
 })();

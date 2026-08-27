@@ -192,7 +192,13 @@ module.exports = [
       whatToStudy: "General history knowledge spanning ancient civilizations through contemporary events.",
       signupFormUrl: "https://tinyurl.com/MSJHistBowl2022",
     },
-    achievements: [],
+    achievements: [
+      { year: "2026", competition: "National History Bowl (Varsity, ~100 teams)", placement: "35th place" },
+      { year: "2026", competition: "National History Bowl (JV)", placement: "21st place" },
+      { year: "2026", competition: "Hopkins History Bowl (~100 teams)", placement: "3rd place" },
+      { year: "2025", competition: "National History Bowl (Varsity, ~100 teams)", placement: "25th place" },
+      { year: "2025", competition: "Hopkins History Bowl (~100 teams)", placement: "5th place" },
+    ],
     upcomingCompetitions: [],
   },
 ];
