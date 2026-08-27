@@ -6,6 +6,10 @@
 //
 // achievements / upcomingCompetitions are plain data arrays: add or remove
 // a row to change what renders in those sections, no markup involved.
+// logos: small org/tournament logo(s) shown next to the page title.
+// photos: real team photos shown in a gallery on the Notable Achievements
+// section — each is { src (relative to public/), alt, caption }. Add or
+// remove an entry to change what shows, no markup involved.
 //
 // Content below is sourced from the club's previous site
 // (msjhsac.wixsite.com/home) as of 2026-08, plus later corrections from
@@ -20,6 +24,19 @@ module.exports = [
     name: "Science Olympiad",
     shortDescription:
       "A tournament-style competition spanning 23 events in science, engineering, and math.",
+    logos: [{ src: "assets/programs/science-olympiad/scioly-logo.png", alt: "Science Olympiad logo" }],
+    photos: [
+      {
+        src: "assets/programs/science-olympiad/bay-area-regional.jpg",
+        alt: "The team posing in a gym under a Cal State East Bay Pioneers sign, holding medals and a trophy",
+        caption: "Bay Area Regionals",
+      },
+      {
+        src: "assets/programs/science-olympiad/norcal-state.jpg",
+        alt: "The team and their coach holding a 5th place trophy and plaque in front of a Science Olympiad banner",
+        caption: "NorCal State, 5th place (2025)",
+      },
+    ],
     overview:
       'Science Olympiad is often called "the track meet of academia." ' +
       "Teams of 15 compete across 23 events spanning science, " +
@@ -63,6 +80,24 @@ module.exports = [
     name: "Science Bowl",
     shortDescription:
       "A Jeopardy-style buzzer competition covering biology, chemistry, physics, earth & space science, math, and energy.",
+    logos: [{ src: "assets/programs/science-bowl/nsb-logo.png", alt: "National Science Bowl logo" }],
+    photos: [
+      {
+        src: "assets/programs/science-bowl/champions-2026.jpg",
+        alt: "Five students and their coach holding a green banner reading National Science Bowl, 2026 National Champion",
+        caption: "2026 National Science Bowl Champions",
+      },
+      {
+        src: "assets/programs/science-bowl/stage-2026.jpg",
+        alt: "The team on stage at the National Science Bowl holding a trophy cup",
+        caption: "National Science Bowl finals, 2026",
+      },
+      {
+        src: "assets/programs/science-bowl/team-2022.jpg",
+        alt: "The team in National Science Bowl polos holding a trophy on stage, wearing masks",
+        caption: "National Science Bowl, 2022",
+      },
+    ],
     overview:
       "Science Bowl is a Jeopardy-style buzzer competition between two " +
       "teams of five (four players plus one alternate). Each round " +
@@ -111,6 +146,17 @@ module.exports = [
     name: "Quiz Bowl",
     shortDescription:
       "A fast-paced buzzer competition covering science, history, literature, mythology, fine arts, and more.",
+    logos: [
+      { src: "assets/programs/quiz-bowl/naqt-logo.png", alt: "NAQT logo" },
+      { src: "assets/programs/quiz-bowl/hsnct-logo.png", alt: "2026 High School National Championship Tournament logo" },
+    ],
+    photos: [
+      {
+        src: "assets/programs/quiz-bowl/hsnct-2026.jpg",
+        alt: "Four students holding a trophy and wearing medals on stage at the High School National Championship Tournament",
+        caption: "HSNCT 2026, 5th place",
+      },
+    ],
     overview:
       "Quiz Bowl is a fast-paced academic buzzer competition where teams " +
       "of 4–6 answer pyramidal toss-up questions spanning science, " +
@@ -137,6 +183,14 @@ module.exports = [
     name: "Ocean Science Bowl",
     shortDescription:
       "A buzzer competition on marine science — biology, chemistry, physical & earth science, and policy.",
+    logos: [{ src: "assets/programs/ocean-science-bowl/nosb-logo.png", alt: "National Ocean Sciences Bowl logo" }],
+    photos: [
+      {
+        src: "assets/programs/ocean-science-bowl/sea-lion-bowl.jpg",
+        alt: "The team posing with trophies and stuffed-animal prizes after the Sea Lion Bowl",
+        caption: "Sea Lion Bowl (NorCal)",
+      },
+    ],
     overview:
       "Ocean Science Bowl (the National Ocean Sciences Bowl's Sea Lion " +
       "Bowl) is a buzzer competition covering marine biology, " +
@@ -172,6 +226,19 @@ module.exports = [
     slug: "history-bowl",
     name: "History Bowl",
     shortDescription: "A fast-paced buzzer competition testing knowledge across all of history.",
+    logos: [{ src: "assets/programs/history-bowl/ihbb-logo.png", alt: "International History Bowl logo" }],
+    photos: [
+      {
+        src: "assets/programs/history-bowl/team-sweatshirts.jpg",
+        alt: "Three team members in Mission San Jose History Bowl sweatshirts in a hotel hallway",
+        caption: "Mission San Jose History Bowl",
+      },
+      {
+        src: "assets/programs/history-bowl/study-session.jpg",
+        alt: "Team members studying together at a practice session",
+        caption: "Team practice",
+      },
+    ],
     overview:
       "History Bowl is a fast-paced academic buzzer competition " +
       "covering all facets of history, from ancient civilizations to " +

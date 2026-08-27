@@ -78,4 +78,13 @@ module.exports = {
   },
   // Shown in the footer's fine print on every page.
   footerNote: "MSJ Academic Challenge is a student club affiliated with Mission San Jose High School.",
+  // EDITABLE: the home page's "Recent Highlight" photo. Set programSlug to
+  // whichever program page it should link to; photo/alt/caption same shape
+  // as an entry in that program's data/programs.js `photos` array.
+  homeHighlight: {
+    programSlug: "science-bowl",
+    photo: "assets/programs/science-bowl/champions-2026.jpg",
+    alt: "Five Science Bowl students and their coach holding a green banner reading National Science Bowl, 2026 National Champion",
+    caption: "Our Science Bowl team won the 2026 National Science Bowl — the club's biggest result yet.",
+  },
 };
