@@ -40,6 +40,16 @@ module.exports = [
       signupFormUrl: "https://forms.gle/rhS5q9utYKXZ6q7m8",
     },
     achievements: [
+      { year: "2026", competition: "NorCal State Science Olympiad", placement: "5th place" },
+      { year: "2026", competition: "NorCal State Science Olympiad — Astronomy", placement: "1st place" },
+      { year: "2026", competition: "NorCal State Science Olympiad — Designer Genes", placement: "1st place" },
+      { year: "2026", competition: "NorCal State Science Olympiad — Materials Science", placement: "1st place" },
+      { year: "2026", competition: "NorCal State Science Olympiad — Rocks and Minerals", placement: "1st place" },
+      { year: "2026", competition: "NorCal State Science Olympiad — Chemistry Lab", placement: "3rd place" },
+      { year: "2026", competition: "NorCal State Science Olympiad — Circuit Lab", placement: "3rd place" },
+      { year: "2026", competition: "NorCal State Science Olympiad — Disease Detectives", placement: "3rd place" },
+      { year: "2026", competition: "NorCal State Science Olympiad — Remote Sensing", placement: "3rd place" },
+      { year: "2026", competition: "Alameda County Science Olympiad", placement: "2nd place" },
       { year: "2023-24", competition: "BARSO (Regionals)", placement: "2nd place" },
       { year: "2023-24", competition: "Stanford Science Olympiad", placement: "3rd place" },
       { year: "2023-24", competition: "GullSO", placement: "3rd place" },
@@ -77,6 +87,9 @@ module.exports = [
       signupFormUrl: "https://forms.gle/8m7xeSMiswxBnVTZ9",
     },
     achievements: [
+      { year: "2026", competition: "National Science Bowl", placement: "Champions" },
+      { year: "2026", competition: "Stanford Science Bowl", placement: "Champions" },
+      { year: "2026", competition: "Sandia Regional Science Bowl", placement: "Champions" },
       { year: "2024-25", competition: "Regionals", placement: "1st place" },
       { year: "2024-25", competition: "Nationals", placement: "Top 12" },
       { year: "2024-25", competition: "Berkeley Science Bowl", placement: "1st place" },
@@ -117,7 +130,9 @@ module.exports = [
         "announced a couple of weeks in advance on the hsquizbowl forum.",
       signupFormUrl: "https://forms.gle/wGaoYz1G764Sawj56",
     },
-    achievements: [],
+    achievements: [
+      { year: "2026", competition: "High School National Championship Tournament", placement: "5th place" },
+    ],
     upcomingCompetitions: [],
   },
   {
@@ -149,6 +164,7 @@ module.exports = [
       signupFormUrl: "https://forms.gle/HFnyNvWLmf1wSKwY6",
     },
     achievements: [
+      { year: "2026", competition: "Sea Lion Bowl (NorCal)", placement: "Champions" },
       { year: "2023-24", competition: "Northern California Sea Lion Bowl Championship", placement: "3rd place" },
       { year: "2022-23", competition: "LOBSTr", placement: "1st place" },
       { year: "2022-23", competition: "Lynbrook Invitational (Varsity)", placement: "1st place" },

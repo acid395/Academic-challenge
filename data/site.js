@@ -76,4 +76,6 @@ module.exports = {
       "run weekly during that program's season, either at Mission San " +
       "Jose High School or online.",
   },
+  // Shown in the footer's fine print on every page.
+  footerNote: "MSJ Academic Challenge is a student club affiliated with Mission San Jose High School.",
 };
