@@ -1,0 +1,126 @@
+{
+  "order": 2,
+  "slug": "science-bowl",
+  "name": "Science Bowl",
+  "shortDescription": "A Jeopardy-style buzzer competition covering biology, chemistry, physics, earth & space science, math, and energy.",
+  "logos": [
+    {
+      "src": "assets/programs/science-bowl/nsb-logo.png",
+      "alt": "National Science Bowl logo"
+    }
+  ],
+  "photos": [
+    {
+      "src": "assets/programs/science-bowl/champions-2026.jpg",
+      "alt": "Five students and their coach holding a green banner reading National Science Bowl, 2026 National Champion",
+      "caption": "2026 National Science Bowl Champions"
+    },
+    {
+      "src": "assets/programs/science-bowl/stage-2026.jpg",
+      "alt": "The team on stage at the National Science Bowl holding a trophy cup",
+      "caption": "National Science Bowl finals, 2026"
+    },
+    {
+      "src": "assets/programs/science-bowl/team-2022.jpg",
+      "alt": "The team in National Science Bowl polos holding a trophy on stage, wearing masks",
+      "caption": "National Science Bowl, 2022"
+    }
+  ],
+  "overview": "Science Bowl is a Jeopardy-style buzzer competition between two teams of five (four players plus one alternate). Each round covers about 25 question sets across six disciplines — biology, chemistry, physics, earth and space science, math, and energy — with individual toss-ups worth 4 points and team-discussed bonus questions worth 10.",
+  "participate": {
+    "whoCanJoin": "Open to any Mission San Jose High School student, grades 9–12.",
+    "selectionProcess": "Tryouts are one-hour, buzzer-based tests held per subject; each student can try out for two subject sections, plus math optionally. Team selection weighs tryout scores alongside team synergy and behavior.",
+    "timeCommitment": "Set after tryouts, once teams are finalized.",
+    "practiceSchedule": "Practices use prewritten questions brought by each member, then split into teams to run full competition sets; exact times are set after tryouts and may change.",
+    "whatToStudy": "The six Science Bowl subject areas — biology, chemistry, physics, earth & space science, math, and energy."
+  },
+  "achievements": [
+    {
+      "year": "2026",
+      "competition": "National Science Bowl",
+      "placement": "Champions"
+    },
+    {
+      "year": "2026",
+      "competition": "Stanford Science Bowl",
+      "placement": "Champions"
+    },
+    {
+      "year": "2026",
+      "competition": "Sandia Regional Science Bowl",
+      "placement": "Champions"
+    },
+    {
+      "year": "2024-25",
+      "competition": "Regionals",
+      "placement": "1st place"
+    },
+    {
+      "year": "2024-25",
+      "competition": "Nationals",
+      "placement": "Top 12"
+    },
+    {
+      "year": "2024-25",
+      "competition": "Berkeley Science Bowl",
+      "placement": "1st place"
+    },
+    {
+      "year": "2024-25",
+      "competition": "Stanford Science Bowl",
+      "placement": "1st place"
+    },
+    {
+      "year": "2024-25",
+      "competition": "MIT Science Bowl",
+      "placement": "2nd place"
+    },
+    {
+      "year": "2024-25",
+      "competition": "Blair-Amador Invitational",
+      "placement": "1st place"
+    },
+    {
+      "year": "2024-25",
+      "competition": "Texas Invitational",
+      "placement": "1st place"
+    },
+    {
+      "year": "2024-25",
+      "competition": "Iron City Invitational",
+      "placement": "1st place"
+    }
+  ],
+  "upcomingCompetitions": [
+    {
+      "date": "TBA",
+      "event": "ICSBT 2",
+      "location": "TBA"
+    },
+    {
+      "date": "TBA",
+      "event": "Berkeley Science Bowl",
+      "location": "TBA"
+    },
+    {
+      "date": "TBA",
+      "event": "MIT Science Bowl",
+      "location": "TBA"
+    },
+    {
+      "date": "TBA",
+      "event": "AVES 2",
+      "location": "TBA"
+    },
+    {
+      "date": "TBA",
+      "event": "Stanford Science Bowl",
+      "location": "TBA"
+    },
+    {
+      "date": "TBA",
+      "event": "Sandia/LLNL Regionals",
+      "location": "TBA"
+    }
+  ]
+}

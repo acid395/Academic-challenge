@@ -1,0 +1,22 @@
+{
+  "order": 70,
+  "id": "brian-lu",
+  "name": "Brian Lu",
+  "photo": null,
+  "status": "current",
+  "grade": "11",
+  "bio": "Brian Lu is an extremely intelligent and handsome junior who serves as one of MSJ AC's Secretaries this year. He participates in Science Olympiad, where he mainly does biology and build events. He enjoys reading all things biology and participates in USABO. He likes sleeping, eating, hanging out with friends, more eating, watching football, and debating between listening to Tiki Tiki or Yara Yara phonk. Brian will only respond to people who address him by his proper honorifics: \"Mr. Tuff\" and \"Sigma male\".",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Secretary",
+      "order": 7
+    },
+    {
+      "type": "captain",
+      "program": "science-olympiad",
+      "title": "Co-Captain",
+      "order": 3
+    }
+  ]
+}

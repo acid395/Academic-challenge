@@ -1,0 +1,24 @@
+{
+  "order": 140,
+  "id": "jonathan-yang",
+  "name": "Jonathan Yang",
+  "photo": null,
+  "status": "current",
+  "grade": "11",
+  "email": "jonathanyang97531@gmail.com",
+  "discord": "wyo.ming",
+  "bio": "Jonathan Yang is a junior and is one of MSJ AC's Activities Coordinators this year. He participates in Science Olympiad, where he mainly does inquiry and build events. He enjoys mathematics and computer science, participating in competitions such as the AIME and USACO, although he's kind of bad at both of them. He is also a black belt in kung fu, despite skipping half of his weekly classes. In his free time, he enjoys doomscrolling, procrastinating, crashing out over his favorite football/soccer team, and researching random things.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Activities Coordinator",
+      "order": 14
+    },
+    {
+      "type": "captain",
+      "program": "science-olympiad",
+      "title": "Co-Captain",
+      "order": 5
+    }
+  ]
+}

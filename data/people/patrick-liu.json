@@ -1,0 +1,15 @@
+{
+  "order": 520,
+  "id": "patrick-liu",
+  "name": "Patrick Liu",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2020",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Vice President 2019-2020, Science Bowl Captain 2019-2020",
+      "order": 1
+    }
+  ]
+}

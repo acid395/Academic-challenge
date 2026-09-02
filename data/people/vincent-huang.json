@@ -1,0 +1,16 @@
+{
+  "order": 120,
+  "id": "vincent-huang",
+  "name": "Vincent Huang",
+  "photo": null,
+  "status": "current",
+  "grade": "11",
+  "bio": "Vincent Huang is a junior at Mission San Jose High School who has been participating in history bowl for a while but still sucks at it. When he is not studying, you can find him watching anime or playing minecraft where he's a top 200 player. He also loves watching TV shows and loves looking at Wikipedia politics pages.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Publicity Officer",
+      "order": 12
+    }
+  ]
+}

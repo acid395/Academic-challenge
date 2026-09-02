@@ -1,0 +1,24 @@
+{
+  "order": 110,
+  "id": "manu-cherukumille",
+  "name": "Manu Cherukumille",
+  "photo": null,
+  "status": "current",
+  "grade": "11",
+  "email": "mcherukumille@gmail.com",
+  "discord": "monoo123",
+  "bio": "Manu Cherukumille is a junior at Mission San Jose High School who has been participating in academic competitions for numerous years. His interests for such things started with geography, as he always would love to explore Google Earth in his spare time. This sparked his curiosity and growth mindset which inspired him to dabble in other academic competitions. Currently, he mainly participates in quiz bowl and also dabbles in science Olympiad. He also plays water polo and loves to engage in various similar outdoor activities such as basketball.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Publicity Officer",
+      "order": 11
+    },
+    {
+      "type": "captain",
+      "program": "quiz-bowl",
+      "title": "Co-Captain",
+      "order": 3
+    }
+  ]
+}

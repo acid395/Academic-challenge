@@ -1,0 +1,15 @@
+{
+  "order": 270,
+  "id": "sahas-goli",
+  "name": "Sahas Goli",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2024",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Vice President 2023-24, Ocean Science Bowl Captain 2022-24, Activities Coordinator 2022-23",
+      "order": 1
+    }
+  ]
+}

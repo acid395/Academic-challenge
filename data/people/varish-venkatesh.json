@@ -1,0 +1,15 @@
+{
+  "order": 290,
+  "id": "varish-venkatesh",
+  "name": "Varish Venkatesh",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2024",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Science Olympiad Captain 2023-24",
+      "order": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "order": 410,
+  "id": "titus-tsai",
+  "name": "Titus Tsai",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2022",
+  "bio": "Senior Titus Tsai serves as Academic Challenge's President, Science Bowl Captain, and Ocean Science Bowl Captain after previously serving as the Activities Coordinator and Ocean Science Bowl Captain. He actively participates in practices for/is part of all four of Academic Challenge's competitions at the time. Despite only specializing in geoscience and astronomy, he was part of the Varsity/A team of Science Bowl, Ocean Science Bowl, and Science Olympiad for two years. Quite predictably, his main interests concern the Earth and space, so he can often be found listening to miscellaneous lectures on such topics.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "President 2021-2022, Activities Coordinator 2020-2021, Science Bowl Captain 2021-2022, Ocean Science Bowl Captain 2020-2022",
+      "order": 1
+    }
+  ]
+}

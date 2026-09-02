@@ -1,0 +1,250 @@
+# Decap CMS configuration for the MSJ Academic Challenge site.
+# Docs: https://decapcms.org/docs/configuration-options/
+#
+# The CMS reads and writes the data files under data/. After an editor hits
+# "Publish", Decap commits to the branch below and Netlify rebuilds the site
+# with `node build.js`.
+
+backend:
+  name: github
+  repo: acid395/Academic-challenge
+  branch: main
+  # OAuth proxy that lets editors "Login with GitHub" from the browser.
+  # Deploy sveltia/sveltia-cms-auth as a Cloudflare Worker and put its URL
+  # here (no trailing slash), e.g. https://cms-auth.msjac.workers.dev
+  base_url: https://REPLACE-WITH-YOUR-CMS-AUTH-WORKER-URL
+
+# Where uploaded images are stored in the repo, and how their path is written
+# into the data files. NO leading slash on public_folder: the page templates
+# render images as src="/${...}", so the stored value must be relative
+# ("assets/uploads/photo.jpg") and the template adds the leading slash.
+media_folder: "public/assets/uploads"
+public_folder: "assets/uploads"
+
+site_url: https://msjac.org
+display_url: https://msjac.org
+
+collections:
+  # ---------------------------------------------------------------------------
+  - name: site
+    label: "Site text"
+    description: "Club name, taglines, home-page and about-page copy, footer."
+    files:
+      - name: site
+        label: "Site-wide settings"
+        file: "data/site.json"
+        fields:
+          - { name: clubName, label: "Club name", widget: string }
+          - { name: tagline, label: "Tagline", widget: text }
+          - name: homeIntroParagraphs
+            label: "Home page intro paragraphs"
+            widget: list
+            field: { name: paragraph, label: "Paragraph", widget: text }
+          - name: joinCta
+            label: "\"Get Involved\" block"
+            widget: object
+            fields:
+              - { name: heading, label: "Heading", widget: string }
+              - name: bodyParagraphs
+                label: "Body paragraphs"
+                widget: list
+                field: { name: paragraph, label: "Paragraph", widget: text }
+              - { name: ctaLabel, label: "Button label", widget: string }
+              - { name: ctaHref, label: "Button link", widget: string }
+          - name: donate
+            label: "Donate block"
+            widget: object
+            fields:
+              - { name: heading, label: "Heading", widget: string }
+              - { name: body, label: "Body", widget: text }
+              - { name: linkLabel, label: "Button label", widget: string }
+          - name: about
+            label: "About page"
+            widget: object
+            fields:
+              - { name: whatWeDo, label: "What we do", widget: text }
+              - { name: school, label: "The school", widget: text }
+              - { name: organization, label: "How it's organized", widget: text }
+          - name: meeting
+            label: "Meeting info"
+            widget: object
+            fields:
+              - { name: summary, label: "Summary", widget: text }
+              - { name: detail, label: "Detail", widget: text }
+          - { name: footerNote, label: "Footer fine print", widget: text }
+          - name: homeHighlights
+            label: "Home \"Recent Highlights\" photos"
+            label_singular: "Highlight"
+            widget: list
+            summary: "{{fields.caption}}"
+            fields:
+              - name: programSlug
+                label: "Links to program"
+                widget: select
+                options:
+                  - science-olympiad
+                  - science-bowl
+                  - quiz-bowl
+                  - ocean-science-bowl
+                  - history-bowl
+              - { name: photo, label: "Photo", widget: image }
+              - { name: alt, label: "Alt text (describes the photo)", widget: string }
+              - { name: caption, label: "Caption", widget: text }
+
+  # ---------------------------------------------------------------------------
+  - name: contact
+    label: "Contact page"
+    description: "Club-wide emails, socials, and the mailing-list blurb."
+    files:
+      - name: contact
+        label: "Contact page"
+        file: "data/contact.json"
+        fields:
+          - name: emails
+            label: "Email addresses"
+            widget: list
+            summary: "{{fields.label}}: {{fields.email}}"
+            fields:
+              - { name: label, label: "Label", widget: string }
+              - { name: email, label: "Email", widget: string }
+          - name: mailingList
+            label: "Mailing list blurb"
+            widget: object
+            fields:
+              - { name: description, label: "Description", widget: text }
+              - { name: linkLabel, label: "Button label", widget: string }
+              - { name: href, label: "Button link", widget: string }
+          - name: socials
+            label: "Social links"
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { name: label, label: "Label", widget: string }
+              - { name: href, label: "Link", widget: string }
+
+  # ---------------------------------------------------------------------------
+  - name: instagram
+    label: "Instagram feed"
+    description: "The home-page \"Follow Us\" section."
+    files:
+      - name: instagram
+        label: "Instagram feed"
+        file: "data/instagram.json"
+        fields:
+          - { name: handle, label: "Handle (e.g. @msj_academic_challenge)", widget: string }
+          - { name: profileUrl, label: "Profile URL", widget: string }
+          - name: widgetEmbedHtml
+            label: "Live-widget embed HTML (optional — overrides the post list below)"
+            widget: text
+            required: false
+          - name: posts
+            label: "Post permalinks"
+            widget: list
+            field: { name: url, label: "Post URL", widget: string }
+
+  # ---------------------------------------------------------------------------
+  - name: programs
+    label: "Programs"
+    label_singular: "Program"
+    description: "One entry per competition program."
+    folder: "data/programs"
+    extension: json
+    format: json
+    identifier_field: name
+    slug: "{{fields.slug}}"
+    create: true
+    summary: "{{fields.order}}. {{fields.name}}"
+    sortable_fields: [order, name]
+    fields:
+      - { name: order, label: "Sort order (controls nav / list position)", widget: number, value_type: int }
+      - { name: slug, label: "URL slug (kebab-case — don't change after publishing)", widget: string, pattern: ["^[a-z0-9]+(-[a-z0-9]+)*$", "lowercase letters, numbers and hyphens only"] }
+      - { name: name, label: "Name", widget: string }
+      - { name: shortDescription, label: "Short description (nav cards, page lede)", widget: text }
+      - { name: overview, label: "Overview paragraph", widget: text }
+      - name: logos
+        label: "Org / tournament logos (shown by the title)"
+        widget: list
+        required: false
+        summary: "{{fields.alt}}"
+        fields:
+          - { name: src, label: "Logo image", widget: image }
+          - { name: alt, label: "Alt text", widget: string }
+      - name: photos
+        label: "Team photos (Notable Achievements gallery)"
+        widget: list
+        required: false
+        summary: "{{fields.caption}}"
+        fields:
+          - { name: src, label: "Photo", widget: image }
+          - { name: alt, label: "Alt text (describes the photo)", widget: string }
+          - { name: caption, label: "Caption", widget: text }
+      - name: participate
+        label: "How to Participate"
+        widget: object
+        fields:
+          - { name: whoCanJoin, label: "Who can join", widget: text }
+          - { name: selectionProcess, label: "Selection process", widget: text }
+          - { name: timeCommitment, label: "Time commitment", widget: text }
+          - { name: practiceSchedule, label: "Practice schedule", widget: text }
+          - { name: whatToStudy, label: "What to study", widget: text }
+      - name: achievements
+        label: "Notable achievements"
+        widget: list
+        required: false
+        summary: "{{fields.year}} — {{fields.competition}} — {{fields.placement}}"
+        fields:
+          - { name: year, label: "Year", widget: string }
+          - { name: competition, label: "Competition", widget: string }
+          - { name: placement, label: "Placement", widget: string }
+      - name: upcomingCompetitions
+        label: "Upcoming competitions"
+        widget: list
+        required: false
+        summary: "{{fields.date}} — {{fields.event}} — {{fields.location}}"
+        fields:
+          - { name: date, label: "Date", widget: string }
+          - { name: event, label: "Event", widget: string }
+          - { name: location, label: "Location", widget: string }
+
+  # ---------------------------------------------------------------------------
+  - name: people
+    label: "People"
+    label_singular: "Person"
+    description: "Every officer, captain, and alumnus — one entry each."
+    folder: "data/people"
+    extension: json
+    format: json
+    identifier_field: name
+    slug: "{{fields.id}}"
+    create: true
+    summary: "{{fields.name}} ({{fields.status}})"
+    sortable_fields: [name, status, classYear, order]
+    fields:
+      - { name: id, label: "ID (kebab-case — matches the page URL, don't change after publishing)", widget: string, pattern: ["^[a-z0-9]+(-[a-z0-9]+)*$", "lowercase letters, numbers and hyphens only"] }
+      - { name: order, label: "Sort order (listing order only)", widget: number, value_type: int, default: 999 }
+      - { name: name, label: "Name", widget: string }
+      - { name: photo, label: "Photo (optional — blank shows a styled initials block)", widget: image, required: false }
+      - { name: status, label: "Status", widget: select, options: [current, alumni], default: current }
+      - { name: grade, label: "Grade (current members, e.g. 12)", widget: string, required: false }
+      - { name: classYear, label: "Class year (alumni only, e.g. 2026)", widget: string, required: false }
+      - { name: email, label: "Email (only published for captains)", widget: string, required: false }
+      - { name: discord, label: "Discord handle (only published for captains)", widget: string, required: false }
+      - { name: bio, label: "Bio (optional)", widget: text, required: false }
+      - name: roles
+        label: "Roles"
+        widget: list
+        summary: "{{fields.title}}"
+        fields:
+          - { name: type, label: "Type", widget: select, options: [officer, captain] }
+          - { name: title, label: "Title (e.g. Co-President, Co-Captain)", widget: string }
+          - name: program
+            label: "Program (captain roles only — leave blank for officers)"
+            widget: select
+            required: false
+            options:
+              - science-olympiad
+              - science-bowl
+              - quiz-bowl
+              - ocean-science-bowl
+              - history-bowl
+          - { name: order, label: "Order within its roster group", widget: number, value_type: int, default: 1 }

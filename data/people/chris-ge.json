@@ -1,0 +1,16 @@
+{
+  "order": 340,
+  "id": "chris-ge",
+  "name": "Chris Ge",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2023",
+  "bio": "Junior Chris Ge serves as AC's Treasurer and a captain for Science Olympiad 2021-2022. He's participated on MSJ's Science Olympiad A team for 2 years and was a captain last year. His favorite subject in science is physics, and his favorite overall subject is math (though computer science is a close second). In particular, he's been competing in math competitions since 4th grade, is a 3-time USAJMO qualifier, 5-time AIME qualifier, and 1-time USAJMO Honorable Mention. For some further flexes: he's in the USACO Gold Division and was in the top 50% of USAPhO contestants in 2021. Chris will meme whether or not it is appropriate. He also has 7 Pokemon Go accounts and actively plays them.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-President 2022-2023, Treasurer 2021-2022, Science Olympiad Captain 2021-2023",
+      "order": 1
+    }
+  ]
+}

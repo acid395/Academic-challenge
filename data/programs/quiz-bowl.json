@@ -1,0 +1,39 @@
+{
+  "order": 3,
+  "slug": "quiz-bowl",
+  "name": "Quiz Bowl",
+  "shortDescription": "A fast-paced buzzer competition covering science, history, literature, mythology, fine arts, and more.",
+  "logos": [
+    {
+      "src": "assets/programs/quiz-bowl/naqt-logo.png",
+      "alt": "NAQT logo"
+    },
+    {
+      "src": "assets/programs/quiz-bowl/hsnct-logo.png",
+      "alt": "2026 High School National Championship Tournament logo"
+    }
+  ],
+  "photos": [
+    {
+      "src": "assets/programs/quiz-bowl/hsnct-2026.jpg",
+      "alt": "Four students holding a trophy and wearing medals on stage at the High School National Championship Tournament",
+      "caption": "HSNCT 2026, 5th place"
+    }
+  ],
+  "overview": "Quiz Bowl is a fast-paced academic buzzer competition where teams of 4–6 answer pyramidal toss-up questions spanning science, history, literature, mythology, fine arts, and more. Clues run from less well-known to more well-known within each question, rewarding both broad knowledge and quick recall.",
+  "participate": {
+    "whoCanJoin": "Open to any Mission San Jose High School student, grades 9–12.",
+    "selectionProcess": "Sign up via the club Discord or contact us — see the Get Involved section on the home page.",
+    "timeCommitment": "Regular Sunday practices, plus tournament days as they're announced.",
+    "practiceSchedule": "In person, Sundays at 4:30 PM.",
+    "whatToStudy": "General academic knowledge across science, history, literature, mythology, and fine arts; tournaments are usually announced a couple of weeks in advance on the hsquizbowl forum."
+  },
+  "achievements": [
+    {
+      "year": "2026",
+      "competition": "High School National Championship Tournament",
+      "placement": "5th place"
+    }
+  ],
+  "upcomingCompetitions": []
+}

@@ -1,0 +1,24 @@
+{
+  "order": 60,
+  "id": "edward-zeng",
+  "name": "Edward Zeng",
+  "photo": null,
+  "status": "current",
+  "grade": "11",
+  "email": "edwzen065@gmail.com",
+  "discord": "icannotfly",
+  "bio": "Edward Zeng is one of MSJ AC's Secretaries this year. He participates in all 5 of the Academic Challenge events, but he is not particularly good at any of them. He is definitely a \"STEM sweat,\" as some would say, competing in a variety of olympiads, from linguistics to chemistry (he got 4th place in the International Linguistics Olympiad this year and has no idea how that happened). Apart from partaking in STEM activities like every other Mission San Jose student, Edward also enjoys making maps but never finishes them, since he gets bored of the vibe halfway in.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Secretary",
+      "order": 6
+    },
+    {
+      "type": "captain",
+      "program": "science-olympiad",
+      "title": "Co-Captain",
+      "order": 6
+    }
+  ]
+}

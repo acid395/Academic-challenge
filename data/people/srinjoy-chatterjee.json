@@ -1,0 +1,15 @@
+{
+  "order": 450,
+  "id": "srinjoy-chatterjee",
+  "name": "Srinjoy Chatterjee",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2021",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Vice President 2020-2021, Science Bowl Captain 2020-2021",
+      "order": 1
+    }
+  ]
+}

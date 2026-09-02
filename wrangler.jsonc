@@ -1,0 +1,12 @@
+{
+  // Cloudflare Workers static-assets deploy config for the msjac.org site.
+  // `npm run build` regenerates dist/, then `npx wrangler deploy` uploads
+  // dist/ as static assets to the Worker named below. No server code — this
+  // is an assets-only Worker (no "main" entry point).
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "academic-challenge",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}

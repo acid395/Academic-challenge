@@ -1,0 +1,15 @@
+{
+  "order": 320,
+  "id": "arushi-dinker",
+  "name": "Arushi Dinker",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2024",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Publicity Officer 2023-24",
+      "order": 1
+    }
+  ]
+}

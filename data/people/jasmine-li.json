@@ -1,0 +1,16 @@
+{
+  "order": 200,
+  "id": "jasmine-li",
+  "name": "Jasmine Li",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2026",
+  "bio": "This school year, Senior Jasmine Li has retired their position as smiskified Publicity Officer to serve as one of AC's secretaries. In Science Olympiad, she competes in physics, inquiry, and build events. Jasmine is also unfortunately chronically online. In their free time, she watches comedy specials, tries to perfect her ballroom whisk, maintains a daily 30 min on Twitter, and keeps up with the Midwest Emo music scene. Spot them on campus with a different hair color each month.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-Secretary, Science Olympiad Co-Captain",
+      "order": 1
+    }
+  ]
+}

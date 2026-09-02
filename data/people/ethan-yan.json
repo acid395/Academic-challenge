@@ -1,0 +1,16 @@
+{
+  "order": 190,
+  "id": "ethan-yan",
+  "name": "Ethan Yan",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2026",
+  "bio": "Junior Ethan Yan is an Activities Coordinator for MSJ AC. During Sophomore year, he competed as a physics and math specialist in Science Bowl and participated in physics and inquiry events in Science Olympiad. He participates in math and physics contests, such as the AMCs and F=ma. Outside of school, he is an avid figure skater, with his favorite jumps being Axel and Lutz and least favorite being Loop. He also enjoys watching movies, some of his favorites being Gladiator, The Man in the Iron Mask, and The Godfather, from which he chose music for his figure skating routines.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Activities Coordinator",
+      "order": 1
+    }
+  ]
+}

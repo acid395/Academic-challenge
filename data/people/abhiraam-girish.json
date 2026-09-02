@@ -1,0 +1,24 @@
+{
+  "order": 130,
+  "id": "abhiraam-girish",
+  "name": "Abhiraam Girish",
+  "photo": null,
+  "status": "current",
+  "grade": "10",
+  "email": "abhiraamgirish@gmail.com",
+  "discord": ".anglesey",
+  "bio": "Abhiraam Girish likes geography and participates in everything except science olympiad. He also likes tennis and Bayern Munich among other things and is the best tennis and soccer sports better within a 50 mile radius. He hopes to be the goat nonchalant best winger in the world Michael Olises personal assistant in the next five years.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Publicity Officer",
+      "order": 13
+    },
+    {
+      "type": "captain",
+      "program": "quiz-bowl",
+      "title": "Co-Captain",
+      "order": 4
+    }
+  ]
+}

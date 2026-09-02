@@ -1,0 +1,16 @@
+{
+  "order": 180,
+  "id": "ashwin-vaidyanathan",
+  "name": "Ashwin Vaidyanathan",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2026",
+  "bio": "Junior Ashwin Vaidyanathan serves as the history bowl captain for MSJ AC and currently participates in History Bowl (duh) and Quiz Bowl. His main interests are history and political science, and he has participated in national and international level competitions in both. He enjoys studying these subjects deeply, by which he means going down Wikipedia and Youtube rabbit holes. At school, he also does Model UN, is Vice President of the Civics Club, runs a politics blog, and is regrettably, a percussionist in MSJ's marching band and wind ensemble. Outside of school, Ashwin enjoys practicing percussion, watching Youtube videos, and listening to music. His music taste is primarily K-pop, but he also listens to classical music, especially when locking in during the wee hours of the night. Recently, he has taken a peculiar interest in working out and going to the gym, an interest which will face the ultimate test at the hands of the College Board this year.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "History Bowl Captain",
+      "order": 1
+    }
+  ]
+}

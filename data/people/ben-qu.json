@@ -1,0 +1,16 @@
+{
+  "order": 400,
+  "id": "ben-qu",
+  "name": "Ben Qu",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2023",
+  "bio": "Junior Benjamin Qu served as the co-captain of MSJ History Bowl alongside Pareekshith. Benjamin participated in History Bee and Bowl since 7th grade, making semifinals in Middle School History Bee Nationals in 2019, and getting 13th place in High School History Bowl Nationals in 2020. He likes history and biology, and is an active Boy Scout. If he isn't working, you can probably find him surfing the Internet, watching random shows/movies, or playing video games.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "History Bowl Co-Captain 2021-2022",
+      "order": 1
+    }
+  ]
+}

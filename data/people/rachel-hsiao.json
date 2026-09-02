@@ -1,0 +1,16 @@
+{
+  "order": 550,
+  "id": "rachel-hsiao",
+  "name": "Rachel Hsiao",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2020",
+  "bio": "Rachel is credited with designing the current MSJ AC logo!",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Graphic Designer 2019-2020, Ocean Science Bowl Captain 2019-2020",
+      "order": 1
+    }
+  ]
+}

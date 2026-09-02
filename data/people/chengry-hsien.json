@@ -1,0 +1,16 @@
+{
+  "order": 80,
+  "id": "chengry-hsien",
+  "name": "Chengry Hsien",
+  "photo": null,
+  "status": "current",
+  "grade": "11",
+  "bio": "Chengry Hsien is MSJ AC's Secretary for the 2026–2027 school year. He participates in both Science Olympiad and Quiz Bowl. He isn't really a \"STEM sweat,\" as some would say, but Chengry balances things out with competitive swimming—he recently achieved Speedo Sectionals and is now just .5 off a TYR Futures cut. Outside of the pool, Chengry is a passionate pianist who has performed at Carnegie Hall multiple times, has been invited to play at Stern Auditorium, and has won numerous international competitions. His favorite artist is Don Toliver, and he often listens to the Octane album on repeat. In his free time, Chengry enjoys chatting with friends, worrying about Rusu, watching Keep Running China, and—of course—eating. He also loves binge-watching TV series and has a love for war-action movies.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Secretary",
+      "order": 8
+    }
+  ]
+}

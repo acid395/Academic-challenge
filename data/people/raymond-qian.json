@@ -1,0 +1,15 @@
+{
+  "order": 470,
+  "id": "raymond-qian",
+  "name": "Raymond Qian",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2021",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Science Olympiad Captain 2020-2021",
+      "order": 1
+    }
+  ]
+}

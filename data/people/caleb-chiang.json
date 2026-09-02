@@ -1,0 +1,15 @@
+{
+  "order": 440,
+  "id": "caleb-chiang",
+  "name": "Caleb Chiang",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2021",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "President 2020-2021, Secretary 2019-2020, Science Olympiad Captain 2019-2021",
+      "order": 1
+    }
+  ]
+}

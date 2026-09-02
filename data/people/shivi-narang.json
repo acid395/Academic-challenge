@@ -1,0 +1,15 @@
+{
+  "order": 330,
+  "id": "shivi-narang",
+  "name": "Shivi Narang",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2024",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Activities Coordinator 2023-24, Science Olympiad Captain 2023-24",
+      "order": 1
+    }
+  ]
+}

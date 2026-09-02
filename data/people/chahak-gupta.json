@@ -1,0 +1,15 @@
+{
+  "order": 390,
+  "id": "chahak-gupta",
+  "name": "Chahak Gupta",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2023",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Treasurer 2022-2023",
+      "order": 1
+    }
+  ]
+}
