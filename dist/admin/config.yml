@@ -9,10 +9,9 @@ backend:
   name: github
   repo: acid395/Academic-challenge
   branch: main
-  # OAuth proxy that lets editors "Login with GitHub" from the browser.
-  # Deploy sveltia/sveltia-cms-auth as a Cloudflare Worker and put its URL
-  # here (no trailing slash), e.g. https://cms-auth.msjac.workers.dev
-  base_url: https://REPLACE-WITH-YOUR-CMS-AUTH-WORKER-URL
+  # OAuth proxy (sveltia/sveltia-cms-auth) deployed as a Cloudflare Worker.
+  # It holds GITHUB_CLIENT_ID / GITHUB_CLIENT_SECRET and ALLOWED_DOMAINS.
+  base_url: https://sveltia-cms-auth.msg4vt.workers.dev
 
 # Where uploaded images are stored in the repo, and how their path is written
 # into the data files. NO leading slash on public_folder: the page templates
