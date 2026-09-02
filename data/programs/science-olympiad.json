@@ -1,0 +1,115 @@
+{
+  "order": 1,
+  "slug": "science-olympiad",
+  "name": "Science Olympiad",
+  "shortDescription": "A tournament-style competition spanning 23 events in science, engineering, and math.",
+  "logos": [
+    {
+      "src": "assets/programs/science-olympiad/scioly-logo.png",
+      "alt": "Science Olympiad logo"
+    }
+  ],
+  "photos": [
+    {
+      "src": "assets/programs/science-olympiad/bay-area-regional.jpg",
+      "alt": "The team posing in a gym under a Cal State East Bay Pioneers sign, holding medals and a trophy",
+      "caption": "Bay Area Regionals"
+    },
+    {
+      "src": "assets/programs/science-olympiad/norcal-state.jpg",
+      "alt": "The team and their coach holding a 5th place trophy and plaque in front of a Science Olympiad banner",
+      "caption": "NorCal State, 5th place (2025)"
+    }
+  ],
+  "overview": "Science Olympiad is often called \"the track meet of academia.\" Teams of 15 compete across 23 events spanning science, engineering, and mathematics — a mix of written tests, pre-built devices, and on-site labs — over 7 time blocks per tournament. Placements across all events combine into an overall team score, with lower totals ranking higher. MSJ competes through invitationals, Bay Area Regionals, and Northern California State Finals, with most tournaments held on Saturdays.",
+  "participate": {
+    "whoCanJoin": "Open to any Mission San Jose High School student, grades 9–12.",
+    "selectionProcess": "Tryouts are typically held in October: candidates test on up to 6 events during lunch in Mr. Melcic's room over about two weeks.",
+    "timeCommitment": "Varies by event load — most members compete in up to 6 events per season.",
+    "practiceSchedule": "Set after tryouts, once event assignments are finalized.",
+    "whatToStudy": "Event-specific study guides, shared in the MSJ AC Discord server once you're signed up."
+  },
+  "achievements": [
+    {
+      "year": "2026",
+      "competition": "NorCal State Science Olympiad",
+      "placement": "5th place"
+    },
+    {
+      "year": "2026",
+      "competition": "NorCal State Science Olympiad — Astronomy",
+      "placement": "1st place"
+    },
+    {
+      "year": "2026",
+      "competition": "NorCal State Science Olympiad — Designer Genes",
+      "placement": "1st place"
+    },
+    {
+      "year": "2026",
+      "competition": "NorCal State Science Olympiad — Materials Science",
+      "placement": "1st place"
+    },
+    {
+      "year": "2026",
+      "competition": "NorCal State Science Olympiad — Rocks and Minerals",
+      "placement": "1st place"
+    },
+    {
+      "year": "2026",
+      "competition": "NorCal State Science Olympiad — Chemistry Lab",
+      "placement": "3rd place"
+    },
+    {
+      "year": "2026",
+      "competition": "NorCal State Science Olympiad — Circuit Lab",
+      "placement": "3rd place"
+    },
+    {
+      "year": "2026",
+      "competition": "NorCal State Science Olympiad — Disease Detectives",
+      "placement": "3rd place"
+    },
+    {
+      "year": "2026",
+      "competition": "NorCal State Science Olympiad — Remote Sensing",
+      "placement": "3rd place"
+    },
+    {
+      "year": "2026",
+      "competition": "Alameda County Science Olympiad",
+      "placement": "2nd place"
+    },
+    {
+      "year": "2023-24",
+      "competition": "BARSO (Regionals)",
+      "placement": "2nd place"
+    },
+    {
+      "year": "2023-24",
+      "competition": "Stanford Science Olympiad",
+      "placement": "3rd place"
+    },
+    {
+      "year": "2023-24",
+      "competition": "GullSO",
+      "placement": "3rd place"
+    },
+    {
+      "year": "2023-24",
+      "competition": "Mira Loma Science Olympiad Invitational",
+      "placement": "5th place"
+    },
+    {
+      "year": "2023-24",
+      "competition": "GGSO (Berkeley/Stanford Invitational)",
+      "placement": "6th place"
+    },
+    {
+      "year": "2023-24",
+      "competition": "NorCal State",
+      "placement": "6th place"
+    }
+  ],
+  "upcomingCompetitions": []
+}

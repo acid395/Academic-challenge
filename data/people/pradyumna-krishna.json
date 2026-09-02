@@ -1,0 +1,24 @@
+{
+  "order": 30,
+  "id": "pradyumna-krishna",
+  "name": "Pradyumna Krishna",
+  "photo": null,
+  "status": "current",
+  "grade": "12",
+  "email": "challengeprady@gmail.com",
+  "discord": "qb308",
+  "bio": "Pradyumna Krishna is a senior at Mission San Jose High School, and the captain of MSJ Quiz Bowl. In Quiz Bowl, he specializes in literature, mythology, and fine arts. Outside of his academic life, he is interested in computer science and machine learning. In his free time, he watches a lot of sports, and ponders whether he would be a great UFC fighter in an alternate reality.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-President",
+      "order": 3
+    },
+    {
+      "type": "captain",
+      "program": "quiz-bowl",
+      "title": "Co-Captain",
+      "order": 1
+    }
+  ]
+}

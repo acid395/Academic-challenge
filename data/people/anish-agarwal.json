@@ -1,0 +1,16 @@
+{
+  "order": 40,
+  "id": "anish-agarwal",
+  "name": "Anish Agarwal",
+  "photo": null,
+  "status": "current",
+  "grade": "11",
+  "bio": "Anish Agarwal is a junior at Mission San Jose High School. He is also a member of the Science Bowl team at MSJ, who won first place at nationals. His core subjects are biology and chemistry. He was placed in the top 20 in US National Chemistry Olympiad and was invited to attend the chemistry camp at the University of Maryland. Outside of academics, he enjoys spending time with his family, travelling across different countries and experiencing many cultures and cuisines. In his free time, he likes to scroll through Youtube shorts and watch movies.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-Vice President",
+      "order": 4
+    }
+  ]
+}

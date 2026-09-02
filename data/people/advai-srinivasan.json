@@ -1,0 +1,16 @@
+{
+  "order": 250,
+  "id": "advai-srinivasan",
+  "name": "Advai Srinivasan",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2025",
+  "bio": "Advai Srinivasan is one of the Science Olympiad captains this year; he also participates in science bowl and focuses on the earth and space sciences. He likes rocks and minerals a lot and tends to find himself lost in identifying images. Outside of sad hobbies he likes to bake, cook, and read manga/webtoons. He also plays trombone and finds fun in playing random songs he hears from time to time.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Secretary 2024-2025, Science Olympiad Captain 2024-2025",
+      "order": 1
+    }
+  ]
+}

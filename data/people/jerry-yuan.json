@@ -1,0 +1,16 @@
+{
+  "order": 350,
+  "id": "jerry-yuan",
+  "name": "Jerry Yuan",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2023",
+  "bio": "Junior Jerry Yuan serves as AC's Secretary, after previously serving as Webmaster, and is a two-year Ocean Science Bowl Captain. In addition, he has five years of Science Bowl and two years of Science Olympiad experience, particularly specializing in earth/space science and physics and being a USAPhO and USAAAO Semifinalist, as well as qualifying for AIME and USACO Silver. Additionally, he helps with coaching/tutoring the elementary school Science Bowl Teams, particularly the Gomes team. Outside of AC, Jerry served as the Smoke Signal's sports editor, was a part of the MSJ Badminton Varsity and MSJ Cross Country teams, and was an officer for MSJ's Earth and Space Club. In his free time, Jerry spends way too much time listening to podcasts or k-pop music and playing Minecraft.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-President 2022-2023, Secretary 2021-2022, Webmaster 2020-2021, Science Bowl Co-Captain 2022-2023, Ocean Science Bowl Captain 2020-2023",
+      "order": 1
+    }
+  ]
+}

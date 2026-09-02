@@ -1,0 +1,15 @@
+{
+  "order": 500,
+  "id": "jack-burd",
+  "name": "Jack Burd",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2021",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Activities Coordinator 2019-2020",
+      "order": 1
+    }
+  ]
+}

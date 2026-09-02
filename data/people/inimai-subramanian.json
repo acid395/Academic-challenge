@@ -1,0 +1,16 @@
+{
+  "order": 420,
+  "id": "inimai-subramanian",
+  "name": "Inimai Subramanian",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2022",
+  "bio": "Senior Inimai Subramanian serves as AC's Vice President, after previously serving as Treasurer, and is a Science Olympiad Captain. She has been an avid member of Science Olympiad for 5 years and has won countless awards and medals through the competition, as well as competing in Science Bowl for 2 years. She loves learning about a wide range of topics, but specializes in Earth Science and Astronomy. An eager teacher of mathematics and science, she also enjoys reading books, doing physics, and finding new specimens to add to her rock collection. In her spare time, she loves to play piano, dance, attempt to write poetry, and embark on lengthy Wikipedia spirals.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Vice President 2021-2022, Treasurer 2020-2021, Science Olympiad Captain 2020-2022",
+      "order": 1
+    }
+  ]
+}

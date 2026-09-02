@@ -1,0 +1,16 @@
+{
+  "order": 360,
+  "id": "ayushi-kashyap",
+  "name": "Ayushi Kashyap",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2023",
+  "bio": "Junior Ayushi Kashyap has participated in Science Olympiad for seven years, since elementary school, doing events in all of the subject areas, while competing, and medaling at a variety of invitationals. Her favorite subject area is identification and binder events. Her least favorite area is build events, for obvious reasons. She also did Ocean Science Bowl in freshman year and had fun memeing around. Outside of AC, she helps run the BirdSO Invitational, a very fun Science Olympiad invitational. In her free time, she enjoys reading books, listening to music, and making people laugh.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-Vice President 2022-2023, Science Olympiad Captain 2021-2023",
+      "order": 1
+    }
+  ]
+}

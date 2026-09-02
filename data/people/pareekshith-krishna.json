@@ -1,0 +1,16 @@
+{
+  "order": 380,
+  "id": "pareekshith-krishna",
+  "name": "Pareekshith Krishna",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2023",
+  "bio": "Junior Pareekshith Krishna served as the co-captain of MSJ Quizbowl alongside Kaushik. Pareekshith participated in Quizbowl for over six years, earning 3rd at Middle School Nationals in 2019 and 19th at High School Nationals in 2021. His specialties include history, literature, and science, and he helped coach and tutor middle school students and teams in these fields. In his free time, you can probably find him reading extremely long and boring novels, watching Youtube, and playing Clash Royale.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Secretary 2022-2023, Quiz Bowl Captain 2021-2023, History Bowl Co-Captain 2021-2023",
+      "order": 1
+    }
+  ]
+}

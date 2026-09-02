@@ -1,0 +1,55 @@
+{
+  "order": 4,
+  "slug": "ocean-science-bowl",
+  "name": "Ocean Science Bowl",
+  "shortDescription": "A buzzer competition on marine science — biology, chemistry, physical & earth science, and policy.",
+  "logos": [
+    {
+      "src": "assets/programs/ocean-science-bowl/nosb-logo.png",
+      "alt": "National Ocean Sciences Bowl logo"
+    }
+  ],
+  "photos": [
+    {
+      "src": "assets/programs/ocean-science-bowl/sea-lion-bowl.jpg",
+      "alt": "The team posing with trophies and stuffed-animal prizes after the Sea Lion Bowl",
+      "caption": "Sea Lion Bowl (NorCal)"
+    }
+  ],
+  "overview": "Ocean Science Bowl (the National Ocean Sciences Bowl's Sea Lion Bowl) is a buzzer competition covering marine biology, chemistry, physical science, geology, geography, history, technology, and policy. Each match pairs two buzzer rounds around a Team Challenge Question (TCQ) worksheet round, where the team works together on written questions; final scores combine TCQ and buzzer performance. Teams field four players plus one optional alternate. Regionals run in early February, with the top team advancing to Nationals in April–May; scrimmages run the month before Regionals.",
+  "participate": {
+    "whoCanJoin": "Open to any Mission San Jose High School student, grades 9–12.",
+    "selectionProcess": "General practices begin over the summer and continue until tryouts (date set each year).",
+    "timeCommitment": "Weekly practices through the season, plus scrimmages and the Regional/National tournaments.",
+    "practiceSchedule": "Currently online, Sundays 7–8 PM, with a planned move to in-person practices.",
+    "whatToStudy": "Buzzer training, scrimmages, and content review across marine biology, chemistry, physical/earth science, geography, history, technology, and policy — materials provided by Academic Challenge."
+  },
+  "achievements": [
+    {
+      "year": "2026",
+      "competition": "Sea Lion Bowl (NorCal)",
+      "placement": "Champions"
+    },
+    {
+      "year": "2023-24",
+      "competition": "Northern California Sea Lion Bowl Championship",
+      "placement": "3rd place"
+    },
+    {
+      "year": "2022-23",
+      "competition": "LOBSTr",
+      "placement": "1st place"
+    },
+    {
+      "year": "2022-23",
+      "competition": "Lynbrook Invitational (Varsity)",
+      "placement": "1st place"
+    },
+    {
+      "year": "2022-23",
+      "competition": "Lynbrook Invitational (JV)",
+      "placement": "3rd place"
+    }
+  ],
+  "upcomingCompetitions": []
+}

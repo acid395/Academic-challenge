@@ -1,0 +1,24 @@
+{
+  "order": 50,
+  "id": "rutvik-arora",
+  "name": "Rutvik Arora",
+  "photo": null,
+  "status": "current",
+  "grade": "11",
+  "email": "arorarutvik@gmail.com",
+  "discord": "mcproz",
+  "bio": "Rutvik Arora is a junior at Mission San Jose High School. His main subjects include physics and a bit of math. He is a member of the Science Bowl team at MSJ, who won first place at nationals. He has two silver medals in the USA Physics Olympiad and was invited to attend the USA Astronomy and Astrophysics Olympiad training camp. His hobbies include playing badminton occasionally and scrolling.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-Vice President",
+      "order": 5
+    },
+    {
+      "type": "captain",
+      "program": "science-olympiad",
+      "title": "Co-Captain",
+      "order": 4
+    }
+  ]
+}

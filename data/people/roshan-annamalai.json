@@ -1,0 +1,27 @@
+{
+  "order": 20,
+  "id": "roshan-annamalai",
+  "name": "Roshan Annamalai",
+  "photo": null,
+  "status": "current",
+  "grade": "12",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-President",
+      "order": 2
+    },
+    {
+      "type": "captain",
+      "program": "science-bowl",
+      "title": "Co-Captain",
+      "order": 1
+    },
+    {
+      "type": "captain",
+      "program": "science-olympiad",
+      "title": "Co-Captain",
+      "order": 1
+    }
+  ]
+}

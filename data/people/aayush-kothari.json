@@ -1,0 +1,24 @@
+{
+  "order": 90,
+  "id": "aayush-kothari",
+  "name": "Aayush Kothari",
+  "photo": null,
+  "status": "current",
+  "grade": "12",
+  "email": "akothari2020@gmail.com",
+  "discord": "kotlin_ant",
+  "bio": "Aayush Kothari is a senior at MSJ's Academic Challenge. He tries to participate in all MSJ competitions except Science Bowl because they get too much attention. He has been to both Quiz Bowl and History Bowl nationals and has multiple Top 20 placements. When he is not locked in for history bowl, he is grinding american football–the REAL football– and cheering for the Denver Broncos. One thing he needs to due before school ends is learn how to drive and participate in school sports for once.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Treasurer",
+      "order": 9
+    },
+    {
+      "type": "captain",
+      "program": "history-bowl",
+      "title": "Co-Captain",
+      "order": 1
+    }
+  ]
+}

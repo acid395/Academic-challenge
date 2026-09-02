@@ -1,0 +1,36 @@
+{
+  "order": 10,
+  "id": "theenash-sengupta",
+  "name": "Theenash Sengupta",
+  "photo": null,
+  "status": "current",
+  "grade": "12",
+  "email": "theenash202008@gmail.com",
+  "discord": "heathens5319",
+  "bio": "Senior Theenash Sengupta is a seasoned Academic Challenge competitor, co-captaining the Science Bowl, Quiz Bowl, and Science Olympiad teams. His specializations in Biology and Chemistry have enabled him to compete with and meet students across the country, even taking him on a round trip to Boston. He enjoys running, skygazing, treehugging, and forgetting how to read. In his free time, you can find Theenash attempting to understand Sabrina Carpenter's rhymes or catching up on his to-watch list.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-President",
+      "order": 1
+    },
+    {
+      "type": "captain",
+      "program": "science-bowl",
+      "title": "Co-Captain",
+      "order": 2
+    },
+    {
+      "type": "captain",
+      "program": "science-olympiad",
+      "title": "Co-Captain",
+      "order": 2
+    },
+    {
+      "type": "captain",
+      "program": "quiz-bowl",
+      "title": "Co-Captain",
+      "order": 2
+    }
+  ]
+}

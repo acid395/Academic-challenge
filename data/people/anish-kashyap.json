@@ -1,0 +1,15 @@
+{
+  "order": 460,
+  "id": "anish-kashyap",
+  "name": "Anish Kashyap",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2021",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Secretary 2020-2021, Science Bowl Co-Captain 2020-2021",
+      "order": 1
+    }
+  ]
+}

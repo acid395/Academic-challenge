@@ -1,0 +1,24 @@
+{
+  "order": 100,
+  "id": "ishaan-kabra",
+  "name": "Ishaan Kabra",
+  "photo": null,
+  "status": "current",
+  "grade": "11",
+  "email": "ishkabra2010@gmail.com",
+  "discord": "hellcat4024",
+  "bio": "Junior Ishaan Kabra is an avid Academic Challenge competitor, whose favorite competition involves listening to words and pressing buttons. He competes in Science Bowl, Science Olympiad, and Ocean Science Bowl. His focus in Earth and space science has led him to exploring a tick-infested forest in Tulsa, Oklahoma alongside 40 other similarly delusional students. Ishaan is also an enthusiast for board games and further enjoys playing ping-pong on his dining table.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Treasurer",
+      "order": 10
+    },
+    {
+      "type": "captain",
+      "program": "ocean-science-bowl",
+      "title": "Captain",
+      "order": 1
+    }
+  ]
+}

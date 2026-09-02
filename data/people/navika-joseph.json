@@ -1,0 +1,19 @@
+{
+  "order": 160,
+  "id": "navika-joseph",
+  "name": "Navika Joseph",
+  "photo": null,
+  "status": "current",
+  "grade": "9",
+  "email": "navika.joseph@gmail.com",
+  "discord": "lavender.book",
+  "bio": "Navika Joseph is a freshman and has competed in Quiz Bowl, History Bowl, Science Olympiad, and Science Bowl. Although she specializes in history, she refuses to learn about the U.S presidents because they are unimportant and unlikely to come up. Between competition rounds she can be found doomscrolling while pretending to review flashcards and devouring chocolate that miraculously appears from the depths of her bag. In her free time she enjoys watching youtube, stress eating oreos, and staring out her window.",
+  "roles": [
+    {
+      "type": "captain",
+      "program": "history-bowl",
+      "title": "Co-Captain",
+      "order": 2
+    }
+  ]
+}

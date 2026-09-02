@@ -1,0 +1,16 @@
+{
+  "order": 240,
+  "id": "rayyan-ibrahim",
+  "name": "Rayyan Ibrahim",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2025",
+  "bio": "Senior Rayyan Ibrahim currently serves as an Ocean Sciences Bowl Captain and Science Olympiad Captain. Rayyan specializes mostly in biology events but has a deep hatred for Science Olympiad's \"Forestry\" event. Outside of AC, he is also the President of the MSJ Biology Club and Percussion Captain of the MSJ Drumline. Outside of MSJ, Rayyan has worked in a herpetology lab and has participated in ecological fieldwork. He enjoys spending time out in nature, with hobbies ranging from wildlife photography to fishing. He also likes hanging out with his pets, which include parakeets and cats.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "President 2024-2025, Science Olympiad Captain 2024-2025, Ocean Science Bowl Captain 2024-2025",
+      "order": 1
+    }
+  ]
+}

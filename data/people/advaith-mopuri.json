@@ -1,0 +1,16 @@
+{
+  "order": 220,
+  "id": "advaith-mopuri",
+  "name": "Advaith Mopuri",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2026",
+  "bio": "Senior Advaith Mopuri is a co-captain of the science bowl team. Advaith specializes in math and physics, and is unusually bad at chemistry. He likes running, working on puzzles, playing with his dog, and most other things you can do outside. Advaith also likes playing board games, watching sitcoms, and making bad jokes. In his free time, you can probably find Advaith listening to Clairo and drinking matcha.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-President, Science Bowl Co-Captain",
+      "order": 1
+    }
+  ]
+}

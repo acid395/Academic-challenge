@@ -1,0 +1,15 @@
+{
+  "order": 170,
+  "id": "eric-zhang",
+  "name": "Eric Zhang",
+  "photo": null,
+  "status": "current",
+  "roles": [
+    {
+      "type": "captain",
+      "program": "science-olympiad",
+      "title": "Co-Captain",
+      "order": 7
+    }
+  ]
+}

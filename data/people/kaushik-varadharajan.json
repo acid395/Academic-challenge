@@ -1,0 +1,16 @@
+{
+  "order": 430,
+  "id": "kaushik-varadharajan",
+  "name": "Kaushik Varadharajan",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2022",
+  "bio": "Senior Kaushik Varadharajan served as the co-captain of MSJ Quizbowl, along with Pareekshith. This was Kaushik's third year participating in the event, after joining at the end of freshman year and repeatedly getting painfully close to winning tournaments. His interests lie in computer science, language, and music, and he was also the vice president of MSJ Linguistics Club. If he wasn't stressing over college essays, he was either watching YouTube videos about history and language, attempting to make music on GarageBand, or just sleeping.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Quiz Bowl Captain 2021-2022",
+      "order": 1
+    }
+  ]
+}

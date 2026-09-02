@@ -1,0 +1,19 @@
+{
+  "order": 150,
+  "id": "yeehun-jang",
+  "name": "Yeehun Jang",
+  "photo": null,
+  "status": "current",
+  "grade": "10",
+  "email": "yeehunj@gmail.com",
+  "discord": "bdellovibrios",
+  "bio": "Yeehun Jang is a sophomore and enjoys staring at photos of fish on Wikipedia. He has competed in Science Olympiad and Ocean Science Bowl with questionable results. He swims for the sole purpose of keeping hydrated by drinking excessive amounts of pool water. In his free time Yeehun enjoys doomscrolling, eating, crashing out, and sleeping.",
+  "roles": [
+    {
+      "type": "captain",
+      "program": "ocean-science-bowl",
+      "title": "Captain",
+      "order": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "order": 310,
+  "id": "daniel-liu",
+  "name": "Daniel Liu",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2024",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Secretary 2023-24",
+      "order": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "order": 370,
+  "id": "samuel-zhou",
+  "name": "Samuel Zhou",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2023",
+  "bio": "Junior Samuel Zhou served as AC's Webmaster. He's participated in Science Bowl for four years, getting to Middle School Nationals in 2019, participating on the MSJ A team, and has also helped coach the Gomes Science Bowl team. He specializes in math and physics, and has participated in those competitions for several years — a 2021 USAJMO qualifier, a 2-time AIME qualifier, a 2-time USAPhO qualifier, and a 2021 USAPhO honorable mention. In his free time, he enjoys a good dystopian novel, a several hour long YouTube binge, or playing video games for too long at a time.",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Co-Vice President 2022-2023, Webmaster 2021-2022, Science Bowl Co-Captain 2022-2023",
+      "order": 1
+    }
+  ]
+}

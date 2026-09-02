@@ -1,0 +1,15 @@
+{
+  "order": 490,
+  "id": "ashish-basetty",
+  "name": "Ashish Basetty",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2021",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Quiz Bowl Captain 2020-2021",
+      "order": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "order": 300,
+  "id": "kerry-xu",
+  "name": "Kerry Xu",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2024",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Treasurer 2023-24, History and Quiz Bowl Captain 2023-24",
+      "order": 1
+    }
+  ]
+}

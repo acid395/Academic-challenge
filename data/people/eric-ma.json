@@ -1,0 +1,15 @@
+{
+  "order": 530,
+  "id": "eric-ma",
+  "name": "Eric Ma",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2020",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Treasurer 2019-2020, Science Olympiad Build Captain 2019-2020",
+      "order": 1
+    }
+  ]
+}

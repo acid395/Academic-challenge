@@ -1,0 +1,15 @@
+{
+  "order": 480,
+  "id": "vibhav-athreya",
+  "name": "Vibhav Athreya",
+  "photo": null,
+  "status": "alumni",
+  "classYear": "2021",
+  "roles": [
+    {
+      "type": "officer",
+      "title": "Quiz Bowl Captain 2020-2021",
+      "order": 1
+    }
+  ]
+}

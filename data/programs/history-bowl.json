@@ -1,0 +1,60 @@
+{
+  "order": 5,
+  "slug": "history-bowl",
+  "name": "History Bowl",
+  "shortDescription": "A fast-paced buzzer competition testing knowledge across all of history.",
+  "logos": [
+    {
+      "src": "assets/programs/history-bowl/ihbb-logo.png",
+      "alt": "International History Bowl logo"
+    }
+  ],
+  "photos": [
+    {
+      "src": "assets/programs/history-bowl/team-sweatshirts.jpg",
+      "alt": "Three team members in Mission San Jose History Bowl sweatshirts in a hotel hallway",
+      "caption": "Mission San Jose History Bowl"
+    },
+    {
+      "src": "assets/programs/history-bowl/study-session.jpg",
+      "alt": "Team members studying together at a practice session",
+      "caption": "Team practice"
+    }
+  ],
+  "overview": "History Bowl is a fast-paced academic buzzer competition covering all facets of history, from ancient civilizations to contemporary events. Matches run four rounds: two toss-up rounds of decreasing difficulty (the second with 10-point bonus questions), a rapid-fire \"lightning round\" against the clock, and a final toss-up round with bonus points for earlier correct answers. Teams field 3–6 players.",
+  "participate": {
+    "whoCanJoin": "Open to any Mission San Jose High School student, grades 9–12.",
+    "selectionProcess": "Sign up via the club Discord or contact us — see the Get Involved section on the home page.",
+    "timeCommitment": "Not specified — check the club Discord for current details.",
+    "practiceSchedule": "Not specified — check the club Discord for current details.",
+    "whatToStudy": "General history knowledge spanning ancient civilizations through contemporary events."
+  },
+  "achievements": [
+    {
+      "year": "2026",
+      "competition": "National History Bowl (Varsity, ~100 teams)",
+      "placement": "35th place"
+    },
+    {
+      "year": "2026",
+      "competition": "National History Bowl (JV)",
+      "placement": "21st place"
+    },
+    {
+      "year": "2026",
+      "competition": "Hopkins History Bowl (~100 teams)",
+      "placement": "3rd place"
+    },
+    {
+      "year": "2025",
+      "competition": "National History Bowl (Varsity, ~100 teams)",
+      "placement": "25th place"
+    },
+    {
+      "year": "2025",
+      "competition": "Hopkins History Bowl (~100 teams)",
+      "placement": "5th place"
+    }
+  ],
+  "upcomingCompetitions": []
+}
